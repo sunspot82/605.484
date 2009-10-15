@@ -1,0 +1,90 @@
+605.484_Project1 README
++++++++++++++++++++++++
+
+How to run:
+===========
+Execute the 'delicious_content_processor.rb' file to run this application.
+
+	-This will output results for Feature Set 1, Feature Set 2, and Feature Set 3.
+	
+	Note: By default the app will process up to 50 delicious bookmark posts per user (users defined
+	      in the 'project1/src/resources/all_accounts.yml' file).  To change this open the
+	      'project1/src/delicious_connector.rb' file and change the count value in the string
+	       "/v1/posts/recent?count=50" (a default value for the DeliciousConnector::get_posts method).
+
+Files:
+======
+-project1/src/
+    account.rb - data structures used to organize user and their bookmark content.
+    delicious_connector.rb - functionality for retrieving data from a delicious account.
+    delicious_content_processor.rb - The main driver of all processing.
+    document_set.rb - data structure for storing and processing documents.
+    document_util.rb - a utility class defining general purpose document operations.
+    document.rb - data structure that contains user bookmark meta-data.
+    tagged_document_set.rb - adapter for the DocumentSet for support of organizing by tag values.    
+    
+    -resources/
+    	accounts.yml - name/password delicious accounts.
+    	README - this file.
+    	stop_words.yml - a list of stop words.
+    	
+    	-data/
+			- Content objects serialized to disk.
+			programming/,travel/,other/	- used for tagged_document_set testing (not being used)
+	
+-project1/test
+	delicious_connector_test.rb - test cases for DeliciousConnector.
+	delicious_content_processor_test.rb - test cases for DeliciousContentProcessor.
+	document_set_test.rb	- test cases for DocumentSet.
+	document_test.rb -	test cases for Document.
+	document_util_test.rb	- test cases for DocumentUtil.
+	tagged_document_set_test.rb - test cases for TaggedDocumentSet.
+	
+	resources/
+		accounts.yml - name/password delicious accounts.
+		sample.html  - sample HTML file.
+		map_file_sample.txt - sample text file.
+		-data/
+			programming/,travel/,other/	- Content objects serialized to disk
+Environment:
+============
+Installed Gems: hpricot, classifier, stemmer
+
+Installed by the following:
+	-gem install hpricot
+	-gem install classifier
+	-gem install stemmer
+		
+Requirements:
+=============
+Feature Ste #1 - Basic TF-IDF
+	Tokenize input, remove stop words and punctuation - DocumentUtil::buildDfMap (document_set.rb)
+	Process a directory and build reference information - DocumentSet.buildDocumentSet (document_set.rb)
+	Output Similarity Scores - DocumentSet.getSetSimilarity (document_set.rb)
+	Term Standard Deviation  - DocumentSet.getOutliers (document_set.rb)
+	Test Cases - DocumentSetTest	(document_set_test.rb)
+	
+	
+Feature Set #2 - Score user based on tagged pages
+	Create delicious account - (sunspot82/abc12345)
+	25 bookmarks for tag 'programming' - done.
+	25 bookmarks for tag 'travel' - done.
+	Classes that retrieve delicious content - delicious_connector.rb
+	Remove HTML,CSS, and Javascript - delicious_content_processor.rb (createUserContent method)
+	Output user most similar to least similar for a user - delicious_content_processor.rb (printUserSimilarityToUser method)
+	Test Cases - DeliciousContentProcessorTest (delicious_content_processor_test.rb)
+	
+Feature Set #3	- Machine classification
+	Create a classifier and train using user content - delicious_content_processor.rb (runMachineClassifier method)
+	Iterator over all users and output classification results - delicious_content_processor.rb (runMachineClassifier method)
+	
+How it works!
+=============
+1) User accounts a loaded from a YAML file.
+2) A Thread is spawned to retrieve each user's delicious account bookmarks.
+3) A Thread is spawnd to retrieve the content associated with each user's bookmarks.
+4) A content for each user is written to a yaml file.
+
+5) When any comparison query is requested, a process goes out to each YAML file and creates
+   a Document object (this object is used to aid the computation). 
+6) The document set in works with its documents to respond to the user requests.
