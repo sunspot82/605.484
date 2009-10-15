@@ -163,6 +163,286 @@
 - !ruby/object:Content 
   tag: travel
   text: |
+    plan
+    trip
+    pennsylvania
+    visitpa
+    content
+    website
+    requires
+    javascript
+    enabled
+    web
+    browser
+    function
+    intended
+    includes
+    limited
+    flash
+    requires
+    adobe
+    flash
+    player
+    navigation
+    video
+    image
+    galleries
+    myroadtrips
+    website
+    usable
+    javascript
+    enabled
+    enjoy
+    interactive
+    experience
+    welcome
+    visitpa
+    com
+    accessibility
+    navigation
+    skip
+    primary
+    navigation
+    skip
+    main
+    content
+    skip
+    footer
+    navigation
+    primary
+    navigation
+    things
+    places
+    stay
+    maps
+    trip
+    ideas
+    travel
+    tools
+    search
+    visit
+    website
+    create
+    trip
+    easy
+    design
+    custom
+    getaway
+    roadtrip
+    planner
+    log
+    started
+    email
+    address
+    password
+    member
+    register
+    experience
+    state
+    independence
+    forgot
+    password
+    check
+    flickr
+    youtube
+    twitter
+    facebook
+    savvy
+    grouse
+    events
+    calendar
+    browser
+    does
+    support
+    javascript
+    calendar
+    utility
+    displayed
+    enter
+    start
+    end
+    dates
+    directly
+    form
+    using
+    format
+    month
+    day
+    year
+    example
+    2008
+    keywords
+    date
+    range
+    happening
+    35th
+    annual
+    oyster
+    festival
+    colonial
+    day
+    let
+    pennsylvania
+    oyster
+    autumn
+    unique
+    festival
+    filled
+    good
+    eats
+    spirits
+    york
+    county
+    favorite
+    pennsylvania
+    arts
+    crafts
+    christmas
+    festival
+    winter
+    season
+    ways
+    off
+    doesn
+    mean
+    head
+    start
+    finding
+    perfect
+    holiday
+    wreath
+    thingamajig
+    washington
+    best
+    holiday
+    shows
+    offer
+    spread
+    crisp
+    october
+    weekends
+    amazing
+    maize
+    maze
+    acre
+    corn
+    maze
+    themed
+    visit
+    day
+    virtual
+    vacation
+    state
+    maze
+    explorers
+    travel
+    areas
+    state
+    collect
+    game
+    pieces
+    pass
+    check
+    fall
+    fall
+    bigger
+    pennsylvania
+    previous
+    scenic
+    byways
+    roadtrip
+    break
+    away
+    highway
+    drive
+    pennsylvania
+    scenic
+    byways
+    previous
+    keystone
+    country
+    discover
+    home
+    goodness
+    pennsylvania
+    rural
+    wonderland
+    previous
+    discover
+    appalachia
+    join
+    visitpa
+    national
+    geographic
+    traveler
+    celebrate
+    remarkable
+    diversity
+    authenticity
+    appalachia
+    international
+    visitors
+    spain
+    italy
+    england
+    france
+    germany
+    china
+    russia
+    sweden
+    footer
+    navigation
+    legal
+    governor
+    welcome
+    facts
+    history
+    media
+    room
+    sitemap
+    merchandise
+    join
+    email
+    list
+    order
+    free
+    travel
+    guide
+    rss
+    contact
+    visitpa
+    com
+    official
+    tourism
+    web
+    site
+    commonwealth
+    pennsylvania
+    pennsylvania
+    department
+    community
+    economic
+    development
+    800
+    visit
+    847
+    4872
+    listed
+    savvygrouse
+    com
+    edward
+    rendell
+    governor
+    sign
+    governor
+    rendell
+    newsletter
+
+  url: http://www.visitpa.com/
+  user: jhu_p
+- !ruby/object:Content 
+  tag: travel
+  text: |
     new
     mexico
     tourism
@@ -757,6 +1037,45 @@
     arizona
     office
     tourism
+    spend
+    experience
+    travel
+    deals
+    indulge
+    dream
+    vacation
+    breaking
+    bank
+    check
+    current
+    vacation
+    packages
+    specials
+    available
+    hotels
+    resorts
+    golf
+    courses
+    destinations
+    state
+    read
+    create
+    arizona
+    adventure
+    online
+    itinerary
+    planner
+    save
+    organize
+    share
+    favorite
+    arizona
+    destinations
+    place
+    check
+    travel
+    plans
+    read
     make
     grand
     vacation
@@ -782,52 +1101,18 @@
     journey
     begins
     read
-    create
-    arizona
-    adventure
-    online
-    itinerary
-    planner
-    save
-    organize
-    share
-    favorite
-    arizona
-    destinations
-    place
-    check
-    travel
-    plans
-    read
-    spend
-    experience
-    travel
-    deals
-    indulge
-    dream
-    vacation
-    breaking
-    bank
-    check
-    current
-    vacation
-    packages
-    specials
-    available
-    hotels
-    resorts
-    golf
-    courses
-    destinations
-    state
-    read
-    arizona
-    highest
-    percentage
-    designated
-    native
-    american
-    land
+    gov
+    aker
+    observatory
+    discovery
+    park
+    safford
+    houses
+    world
+    largest
+    known
+    camera
+    obscura
     learn
     search
     newsletter
@@ -949,6 +1234,16 @@
     request
     guide
     features
+    travel
+    deals
+    perfect
+    package
+    special
+    plan
+    trip
+    create
+    custom
+    itinerary
     grand
     canyon
     explore
@@ -956,16 +1251,6 @@
     miles
     pure
     wonder
-    plan
-    trip
-    create
-    custom
-    itinerary
-    travel
-    deals
-    perfect
-    package
-    special
     experience
     arizona
     discover
@@ -981,28 +1266,31 @@
     route
     greater
     phoenix
-    phoenix
-    clear
+    sedona
+    partly
+    cloudy
     deals
     travel
     deals
-    women
-    grand
-    canyon
-    fully
-    guided
-    hiking
-    experience
+    girls
+    pampering
+    retreat
+    relax
+    restore
+    rejuvenate
+    retreat
+    heal
+    starting
+    450
+    person
     read
-    grand
-    canyon
-    getaway
-    howard
-    johnson
-    save
-    off
-    rack
-    rate
+    august
+    special
+    night
+    agust
+    summer
+    special
+    night
     read
     copyright
     2009
@@ -1175,129 +1463,6 @@
     reserved
 
   url: http://www.traveltex.com/
-  user: jhu_p
-- !ruby/object:Content 
-  tag: travel
-  text: |
-    love
-    new
-    york
-    official
-    new
-    york
-    state
-    tourism
-    website
-    login
-    register
-    state
-    quick
-    links
-    nys
-    canals
-    nys
-    dot
-    road
-    travel
-    info
-    heritage
-    nys
-    thruway
-    authority
-    nys
-    parks
-    recreation
-    nys
-    motor
-    vehicles
-    environmental
-    conservation
-    nys
-    agriculture
-    mkts
-    nys
-    bridge
-    authority
-    nys
-    consumer
-    protection
-    nys
-    health
-    deaprtment
-    nys
-    power
-    authority
-    alliance
-    arts
-    french
-    indian
-    war
-    comm
-    international
-    visitors
-    events
-    maps
-    regions
-    online
-    reservations
-    brochures
-    plan
-    trip
-    enewsletters
-    previously
-    published
-    articles
-    travel
-    resources
-    weather
-    zip
-    city
-    trip
-    planner
-    transportation
-    press
-    room
-    dot
-    511
-    tourism
-    agencies
-    new
-    york
-    kids
-    nys
-    enhanced
-    driver
-    license
-    800
-    nys
-    contact
-    need
-    website
-    help
-    text
-    size
-    reset
-    send
-    friend
-    new
-    york
-    state
-    department
-    economic
-    development
-    2008
-    sitemap
-    terms
-    conditions
-    www
-    state
-    www
-    empire
-    state
-    site
-    credits
-
-  url: http://www.iloveny.com/
   user: jhu_p
 - !ruby/object:Content 
   tag: travel
@@ -2966,56 +3131,61 @@
     offers
     rss
     email
-    lumberton
-    visitors
-    bureau
-    hotel
-    jan
-    2009
-    dec
-    2010
-    springhill
-    suites
-    value
-    priced
+    elizabeth
+    city
+    area
+    cvb
+    fall
+    aut
     sep
     2009
-    nov
+    oct
     2009
-    legacy
-    golf
-    packages
+    carolina
+    mornings
+    biltmore
+    bed
+    oct
+    2009
+    jan
+    2010
+    hampton
+    inn
+    suites
+    2009
     fall
     special
-    nov
-    2009
-    nov
-    2009
-    springhill
-    suites
-    leaf
-    peepers
-    package
-    oct
-    2009
-    nov
-    2009
-    classy
-    transporta
-    raleigh
-    dur
-    oct
-    2009
-    dec
-    2012
-    proximity
-    hotel
-    ride
-    rail
     sep
     2009
-    mar
-    2010
+    nov
+    2009
+    golf
+    escapes
+    fall
+    golf
+    escape
+    sep
+    2009
+    nov
+    2009
+    chetola
+    resort
+    porsche
+    packa
+    aug
+    2009
+    dec
+    2009
+    lakehouse
+    katie
+    camp
+    forever
+    fall
+    special
+    sep
+    2009
+    oct
+    2009
     browse
     offers
     north
@@ -4913,438 +5083,65 @@
     estatus
     sala
     equipaje
-    us1222
-    charlotte
-    arrib
-    d24
-    use4247
-    philadelphia
-    arrib
-    d36
-    ua16
-    chicago
-    arrib
-    d13
-    swa234
-    little
-    rock
-    retrasado
-    use4151
-    guardia
-    new
-    york
-    arrib
-    d37
-    dl1894
-    atlanta
-    arrib
-    c07
-    swa2537
-    houston
-    aterrizando
-    a10
-    nw3456
-    minneapolis
-    tiempo
-    c13
-    dl3389
-    minneapolis
-    arrib
-    swa1675
-    kansas
-    city
-    arrib
-    swa506
-    austin
-    aterrizando
-    dl6237
-    jfk
-    new
-    york
-    tiempo
-    c05
-    swa1135
-    providence
-    tiempo
-    swa3843
-    albany
-    aterrizando
-    swa748
-    long
-    island
-    macarthur
-    aterrizando
-    fl344
-    orlando
-    tiempo
-    d01
-    swa3346
-    buffalo
-    aterrizando
-    a11
-    swa2093
-    hartford
-    aterrizando
-    co326
-    houston
-    tiempo
-    d14
-    swa1836
-    manchester
-    tiempo
-    swa3350
-    phoenix
-    aterrizando
-    swa1096
-    columbus
-    aterrizando
-    swa8
-    cleveland
-    tiempo
-    nw1140
-    detroit
-    tiempo
-    c11
-    dl3156
-    detroit
-    tiempo
-    dl6073
-    jfk
-    new
-    york
-    tiempo
-    b61325
-    boston
-    tiempo
-    swa352
-    tampa
-    tiempo
-    aa3944
-    jfk
-    new
-    york
-    tiempo
-    swa1058
-    guardia
-    new
-    york
-    retrasado
-    fl689
-    sarasota
-    bradenton
-    tiempo
-    d25
-    swa639
-    hartford
-    tiempo
-    swa3656
-    boston
-    tiempo
-    swa1924
-    manchester
-    tiempo
-    fl328
-    charlotte
-    retrasado
-    d05
-    swa389
-    raleigh
-    durham
-    tiempo
-    a10
-    aa1698
-    dallas
-    worth
-    tiempo
-    dl2868
-    memphis
-    tiempo
-    nw3466
-    memphis
-    tiempo
-    c13
-    us1186
-    charlotte
-    tiempo
-    d22
-    dl1888
-    atlanta
-    retrasado
-    c07
-    fl489
-    boston
-    tiempo
-    d27
-    fl416
-    atlanta
-    tiempo
-    d23
-    ua306
-    los
-    angeles
-    tiempo
-    d13
-    co2832
-    cleveland
-    tiempo
-    d16
-    swa3459
-    nashville
-    tiempo
-    co2699
-    newark
-    tiempo
-    d16
-    swa1010
-    detroit
-    tiempo
-    use4593
-    guardia
-    new
-    york
-    tiempo
-    d36
-    swa3781
-    san
-    antonio
-    tiempo
-    swa729
-    louisville
-    tiempo
-    swa77
-    pittsburgh
-    tiempo
-    9k1506
-    hagerstown
-    tiempo
-    d12
-    9k1528
-    lancaster
-    tiempo
-    d12
-    swa3794
-    jackson
-    tiempo
-    a11
-    swa2798
-    manchester
-    tiempo
-    nw1226
-    detroit
-    tiempo
-    c11
-    dl3235
-    detroit
-    tiempo
-    swa1238
-    orlando
-    tiempo
-    swa1157
-    hartford
-    tiempo
-    ua956
-    chicago
-    tiempo
-    d13
-    fl811
-    boston
-    tiempo
-    d05
-    swa887
-    providence
-    tiempo
     swa3705
     buffalo
     retrasado
-    dl1890
-    atlanta
-    tiempo
-    ac7934
-    toronto
-    tiempo
-    swa3984
-    louis
-    tiempo
-    a10
-    us1476
-    charlotte
-    tiempo
-    d22
-    fl459
-    dayton
-    tiempo
-    d27
-    fl495
-    orlando
-    tiempo
-    d21
-    fl955
-    lauderdale
-    tiempo
-    d25
-    swa2921
-    indianapolis
-    tiempo
-    fl494
-    portland
-    tiempo
-    d29
-    swa2278
-    las
-    vegas
-    tiempo
-    fl402
-    rochester
-    tiempo
-    d01
-    use4529
-    guardia
-    new
-    york
-    tiempo
-    d36
-    dl1886
-    atlanta
-    tiempo
-    c07
-    ba229
-    london
-    tiempo
-    swa3942
-    salt
-    lake
-    city
-    tiempo
-    swa1247
-    chicago
-    tiempo
-    swa231
-    albany
-    tiempo
-    swa152
-    san
-    diego
-    tiempo
-    co526
-    houston
-    tiempo
-    d16
-    us1569
-    philadelphia
-    tiempo
-    d20
-    swa144
-    lauderdale
-    tiempo
-    swa2382
-    norfolk
-    tiempo
-    a11
-    swa1320
-    fort
-    myers
-    tiempo
-    swa464
-    west
-    palm
-    beach
-    tiempo
     swa395
     jacksonville
     retrasado
     swa3332
     raleigh
     durham
-    retrasado
-    fl800
-    boston
-    tiempo
-    d23
-    swa5015
-    columbus
-    tiempo
-    swa576
-    long
-    island
-    macarthur
-    tiempo
-    swa904
-    tampa
-    tiempo
-    swa1396
-    providence
-    tiempo
+    arrib
     swa563
     buffalo
     retrasado
-    aa1298
-    dallas
-    worth
-    tiempo
-    swa3375
-    hartford
-    tiempo
-    swa3441
-    orlando
-    tiempo
-    fl598
-    indianapolis
-    tiempo
-    d05
-    use4591
-    guardia
-    new
-    york
-    tiempo
-    d37
     swa33
     houston
-    tiempo
-    co5606
-    cleveland
-    tiempo
-    d12
-    fl692
-    tampa
-    tiempo
-    d29
+    retrasado
     fl460
     orlando
-    tiempo
+    arrib
     d27
     fl742
     lauderdale
     retrasado
     d21
-    swa2699
-    nashville
+    fl692
+    tampa
     tiempo
+    d29
     aa4318
     chicago
+    retrasado
+    swa2699
+    nashville
+    arrib
     b61327
     boston
-    tiempo
+    arrib
     swa3969
     albuquerque
-    tiempo
+    arrib
     swa3819
     boston
-    tiempo
+    aterrizando
+    a10
     dl6653
     jfk
     new
     york
     tiempo
-    swa922
-    birmingham
-    tiempo
     jm041
     montego
     bay
     tiempo
+    swa922
+    birmingham
+    aterrizando
     dl1892
     atlanta
-    tiempo
+    retrasado
     c07
     dl6718
     jfk
@@ -5362,10 +5159,16 @@
     swa1179
     denver
     tiempo
+    a11
     aa792
     san
     juan
     tiempo
+    ua294
+    san
+    francisco
+    retrasado
+    d15
     swa1512
     kansas
     city
@@ -5385,14 +5188,14 @@
     dl6494
     cincinnati
     tiempo
+    ua730
+    chicago
+    tiempo
+    d13
     us1853
     philadelphia
     tiempo
     d24
-    ua730
-    chicago
-    tiempo
-    d11
     fl822
     boston
     tiempo
@@ -5403,7 +5206,7 @@
     ua492
     denver
     tiempo
-    d15
+    d11
     use3759
     guardia
     new
@@ -5429,7 +5232,7 @@
     tiempo
     fl462
     atlanta
-    tiempo
+    retrasado
     d25
     us85
     phoenix
@@ -5443,32 +5246,27 @@
     newark
     tiempo
     d12
+    dl2836
+    detroit
+    tiempo
     nw680
     detroit
     tiempo
     c11
-    dl2836
-    detroit
-    tiempo
+    swa665
+    chicago
+    retrasado
     swa3439
     las
     vegas
     tiempo
-    swa665
-    chicago
+    dl2800
+    minneapolis
     tiempo
-    ua294
-    san
-    francisco
-    tiempo
-    d13
     nw1074
     minneapolis
     tiempo
     c13
-    dl2800
-    minneapolis
-    tiempo
     swa32
     denver
     tiempo
@@ -5490,22 +5288,22 @@
     atlanta
     tiempo
     c07
+    aa2104
+    miami
     swa367
     phoenix
     tiempo
-    aa2104
-    miami
     dl6151
     cincinnati
     tiempo
     ua766
     chicago
-    tiempo
-    d13
+    retrasado
+    d11
     ua168
     denver
     tiempo
-    d11
+    d13
     aa2404
     dallas
     worth
@@ -5518,592 +5316,34 @@
     estatus
     sala
     temp
-    swa423
-    long
-    island
-    macarthur
-    abordando
-    div
-    class
-    hp_bwi_weather
-    9k1531
-    lancaster
-    tiempo
-    d12
-    div
-    class
-    hp_bwi_weather
-    fl322
-    boston
-    parti
-    d05
-    div
-    class
-    hp_bwi_weather
-    ua473
-    chicago
-    tiempo
-    d15
-    div
-    class
-    hp_bwi_weather
-    swa567
-    columbus
-    parti
-    div
-    class
-    hp_bwi_weather
-    swa69
-    louisville
-    abordando
-    div
-    class
-    hp_bwi_weather
-    use4248
-    philadelphia
-    tiempo
-    d36
-    div
-    class
-    hp_bwi_weather
-    swa234
-    buffalo
-    retrasado
-    div
-    class
-    hp_bwi_weather
-    swa1241
-    boston
-    abordando
-    div
-    class
-    hp_bwi_weather
-    dl1189
-    salt
-    lake
-    city
-    abordando
-    c09
-    div
-    class
-    hp_bwi_weather
-    use4126
-    guardia
-    new
-    york
-    tiempo
-    d37
-    div
-    class
-    hp_bwi_weather
-    swa1999
-    manchester
-    abordando
-    div
-    class
-    hp_bwi_weather
-    fl436
-    atlanta
-    retrasado
-    d21
-    div
-    class
-    hp_bwi_weather
-    aa1719
-    dallas
-    worth
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    us1225
-    charlotte
-    tiempo
-    d24
-    div
-    class
-    hp_bwi_weather
-    swa2537
-    albany
-    tiempo
-    a10
-    div
-    class
-    hp_bwi_weather
-    nw3441
-    memphis
-    tiempo
-    c13
-    div
-    class
-    hp_bwi_weather
-    swa1215
-    louis
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    dl6240
-    jfk
-    new
-    york
-    tiempo
-    c05
-    div
-    class
-    hp_bwi_weather
-    dl3014
-    memphis
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    us678
-    phoenix
-    tiempo
-    d26
-    div
-    class
-    hp_bwi_weather
-    swa1675
-    guardia
-    new
-    york
-    retrasado
-    div
-    class
-    hp_bwi_weather
-    dl6073
-    jfk
-    new
-    york
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    dl6149
-    cincinnati
-    tiempo
-    c05
-    div
-    class
-    hp_bwi_weather
-    ua9
-    denver
-    tiempo
-    d13
-    div
-    class
-    hp_bwi_weather
-    dl1893
-    atlanta
-    retrasado
-    c07
-    div
-    class
-    hp_bwi_weather
-    swa3346
-    west
-    palm
-    beach
-    tiempo
-    a11
-    div
-    class
-    hp_bwi_weather
-    swa2093
-    raleigh
-    durham
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    swa1836
-    jacksonville
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    swa3843
-    norfolk
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    swa1135
-    lauderdale
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    swa3350
-    hartford
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    fl819
-    boston
-    tiempo
-    d01
-    div
-    class
-    hp_bwi_weather
-    swa748
-    fort
-    myers
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    swa1096
-    long
-    island
-    macarthur
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    swa8
-    orlando
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    aa3854
-    chicago
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    nw1143
-    detroit
-    tiempo
-    c11
-    div
-    class
-    hp_bwi_weather
-    dl3151
-    detroit
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    co227
-    houston
-    tiempo
-    d14
-    div
-    class
-    hp_bwi_weather
-    swa352
-    chicago
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    b61326
-    boston
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    swa3656
-    las
-    vegas
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    swa639
-    kansas
-    city
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    swa1924
-    nashville
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    swa389
-    providence
-    tiempo
-    a10
-    div
-    class
-    hp_bwi_weather
-    fl425
-    atlanta
-    retrasado
-    d25
-    div
-    class
-    hp_bwi_weather
-    fl328
-    boston
-    tiempo
-    d05
-    div
-    class
-    hp_bwi_weather
-    us972
-    philadelphia
-    tiempo
-    d22
-    div
-    class
-    hp_bwi_weather
-    aa1035
-    dallas
-    worth
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    dl2898
-    minneapolis
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    nw3527
-    minneapolis
-    tiempo
-    c13
-    div
-    class
-    hp_bwi_weather
-    fl893
-    milwaukee
-    tiempo
-    d23
-    div
-    class
-    hp_bwi_weather
-    co2831
-    cleveland
-    tiempo
-    d16
-    div
-    class
-    hp_bwi_weather
-    ua307
-    los
-    angeles
-    tiempo
-    d15
-    div
-    class
-    hp_bwi_weather
-    swa3459
-    manchester
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    swa1010
-    orlando
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    swa480
-    birmingham
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    dl1895
-    atlanta
-    tiempo
-    c07
-    div
-    class
-    hp_bwi_weather
-    swa3553
-    phoenix
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    swa3476
-    houston
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    swa3794
-    buffalo
-    tiempo
-    a11
-    div
-    class
-    hp_bwi_weather
-    use4154
-    guardia
-    new
-    york
-    tiempo
-    d36
-    div
-    class
-    hp_bwi_weather
-    swa2798
-    louisville
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    swa77
-    albany
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    co2714
-    newark
-    tiempo
-    d12
-    div
-    class
-    hp_bwi_weather
-    swa1157
-    chicago
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    nw1131
-    detroit
-    tiempo
-    c11
-    div
-    class
-    hp_bwi_weather
-    dl3198
-    detroit
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    swa1238
-    columbus
-    tiempo
-    div
-    class
-    hp_bwi_weather
     swa3705
     tampa
     retrasado
     div
     class
     hp_bwi_weather
-    ac7935
-    toronto
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    swa887
-    pittsburgh
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    ua719
-    chicago
-    tiempo
-    d13
-    div
-    class
-    hp_bwi_weather
-    swa3984
-    hartford
-    tiempo
-    a10
-    div
-    class
-    hp_bwi_weather
-    swa1588
-    louis
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    fl811
-    tampa
-    tiempo
-    d05
-    div
-    class
-    hp_bwi_weather
-    fl876
-    lauderdale
-    tiempo
-    d21
-    div
-    class
-    hp_bwi_weather
-    swa2365
-    detroit
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    9k1507
-    hagerstown
-    tiempo
-    d12
-    div
-    class
-    hp_bwi_weather
-    fl599
-    indianapolis
-    tiempo
-    d27
-    div
-    class
-    hp_bwi_weather
-    us1577
-    charlotte
-    tiempo
-    d22
-    div
-    class
-    hp_bwi_weather
-    fl321
-    charlotte
-    tiempo
-    d25
-    div
-    class
-    hp_bwi_weather
-    9k1529
-    lancaster
-    tiempo
-    d12
-    div
-    class
-    hp_bwi_weather
-    fl494
-    orlando
-    tiempo
-    d03
-    div
-    class
-    hp_bwi_weather
-    swa1334
-    cleveland
-    tiempo
+    swa2382
+    buffalo
+    abordando
+    a11
     div
     class
     hp_bwi_weather
     swa5015
     boston
-    tiempo
+    abordando
+    div
+    class
+    hp_bwi_weather
+    swa1320
+    hartford
+    abordando
+    div
+    class
+    hp_bwi_weather
+    swa464
+    albany
+    abordando
     div
     class
     hp_bwi_weather
@@ -6113,43 +5353,24 @@
     div
     class
     hp_bwi_weather
+    swa144
+    manchester
+    abordando
+    div
+    class
+    hp_bwi_weather
     swa3332
     long
     island
     macarthur
-    retrasado
-    div
-    class
-    hp_bwi_weather
-    swa144
-    manchester
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    swa2382
-    buffalo
-    tiempo
-    a11
-    div
-    class
-    hp_bwi_weather
-    swa1320
-    hartford
-    tiempo
-    div
-    class
-    hp_bwi_weather
-    swa464
-    albany
-    tiempo
+    abordando
     div
     class
     hp_bwi_weather
     swa3375
     raleigh
     durham
-    tiempo
+    abordando
     div
     class
     hp_bwi_weather
@@ -6169,16 +5390,16 @@
     div
     class
     hp_bwi_weather
-    fl329
-    boston
-    tiempo
-    d05
-    div
-    class
-    hp_bwi_weather
     ba228
     london
     tiempo
+    div
+    class
+    hp_bwi_weather
+    fl329
+    boston
+    retrasado
+    d05
     div
     class
     hp_bwi_weather
@@ -6245,6 +5466,12 @@
     seleccione
     por
     favor
+    nkt
+    grk
+    ts3
+    ts1
+    pob
+    tb1
     lfi
     nqa
     nhk
@@ -6256,12 +5483,6 @@
     lsf
     tcm
     nxx
-    nkt
-    grk
-    ts3
-    ts1
-    pob
-    tb1
     albany
     alb
     albuquerque
@@ -6313,9 +5534,9 @@
     cincinnati
     cvg
     cleveland
-    cle
-    cleveland
     bkl
+    cleveland
+    cle
     columbus
     cmh
     dallas
@@ -6363,9 +5584,9 @@
     hartford
     bdl
     houston
-    iah
-    houston
     hou
+    houston
+    iah
     indianapolis
     ind
     jackson
@@ -6378,10 +5599,10 @@
     jfk
     kansas
     city
-    mkc
+    mci
     kansas
     city
-    mci
+    mkc
     guardia
     new
     york
@@ -6438,9 +5659,9 @@
     williamsburg
     phf
     norfolk
-    orf
-    norfolk
     ngu
+    norfolk
+    orf
     oakland
     oak
     oklahoma
@@ -6828,19 +6049,20 @@
     things
     events
     hawaii
-    pga
-    tour
-    sbs
-    championship
-    sony
-    open
-    hawaii
     18th
     annual
     world
     invitational
     hula
     festival
+    christmas
+    light
+    parade
+    olaule
+    pga
+    tour
+    sbs
+    championship
     festivals
     events
     fresh
@@ -6890,13 +6112,13 @@
     island
     category
     categories
-    2218
+    2216
     activities
-    396
+    395
     dining
     242
     events
-    405
+    404
     golf
     services
     222
@@ -6966,7 +6188,7 @@
     island
     category
     categories
-    405
+    404
     craft
     fairs
     art
@@ -7559,11 +6781,11 @@
     com
     home
     picture
-    malta
+    norway
     country
-    malta
-    beautiful
-    malta
+    norway
+    kayaking
+    sunset
     change
     language
     english
@@ -8358,13 +7580,6 @@
     click
     site
     survey
-    bass
-    fishing
-    lake
-    toho
-    viewers
-    liked
-    video
     john
     pennekamp
     coral
@@ -8374,16 +7589,9 @@
     viewers
     liked
     video
-    family
     fishing
-    trip
-    destin
-    viewers
-    liked
-    video
+    guide
     florida
-    seafood
-    festival
     viewers
     liked
     video
@@ -8395,9 +7603,23 @@
     viewers
     liked
     video
+    family
     fishing
-    guide
+    trip
+    destin
+    viewers
+    liked
+    video
+    bass
+    fishing
+    lake
+    toho
+    viewers
+    liked
+    video
     florida
+    seafood
+    festival
     viewers
     liked
     video
@@ -9335,10 +8557,6 @@
     family
     jill
     martin
-    new
-    hallo
-    wee
-    party
     beaches
     adventure
     lauren
@@ -9348,9 +8566,6 @@
     entertainment
     kanika
     jelks
-    new
-    seafood
-    sebastian
     golf
     tim
     mcdonald
@@ -9358,6 +8573,9 @@
     fishing
     terry
     tomalin
+    new
+    boat
+    preview
     off
     beaten
     path
@@ -11415,10 +10633,13 @@
     help
     cocoa
     programming
-    manage
-    project
-    portfolio
-    debug
+    grails
+    domain
+    driven
+    design
+    using
+    naked
+    objects
     search
     books
     articles
@@ -16477,6 +15698,8 @@
     8482
     platform
     downloads
+    rest
+    client
     gorm
     support
     hadoop
@@ -16485,9 +15708,6 @@
     plugin
     audit
     trail
-    grails
-    markdown
-    plugin
     view
     latest
     news
@@ -17602,6 +16822,57 @@
     source
     programs
     news
+    actionscript
+    youtube
+    chromeless
+    player
+    live
+    youtube
+    api
+    blog
+    october
+    2009
+    good
+    news
+    developers
+    integrate
+    youtube
+    videos
+    actionscript
+    flash
+    applications
+    official
+    youtube
+    chromeless
+    player
+    api
+    updated
+    natively
+    view
+    source
+    new
+    series
+    sites
+    using
+    html5
+    google
+    code
+    blog
+    october
+    2009
+    view
+    source
+    new
+    series
+    crack
+    open
+    cool
+    web
+    sites
+    applications
+    step
+    step
+    series
     maps
     api
     speaks
@@ -17794,74 +17065,6 @@
     today
     happy
     announce
-    moinmoin
-    google
-    summer
-    code
-    wrap
-    google
-    open
-    source
-    blog
-    october
-    2009
-    moinmoin
-    wiki
-    software
-    development
-    team
-    wonderful
-    time
-    participation
-    google
-    summer
-    code
-    trade
-    2009
-    greatly
-    enjoyed
-    collaborating
-    oembed
-    support
-    youtube
-    api
-    blog
-    october
-    2009
-    oembed
-    pretty
-    slick
-    way
-    embed
-    multimedia
-    link
-    example
-    request
-    like
-    http
-    www
-    youtube
-    com
-    oembed
-    url
-    http
-    www
-    youtube
-    com
-    watch
-    3fv
-    3dbdoyn
-    6gdre
-    amp
-    format
-    json
-    response
-    like
-    provider_url
-    http
-    www
-    youtube
-    com
     announcement
     save
     date
@@ -17878,6 +17081,10 @@
     learn
     raquo
     videos
+    sexy
+    visualizations
+    using
+    goog
     highlights
     google
     200
@@ -17885,9 +17092,6 @@
     internet
     explorer
     xhtml
-    svg
-    internet
-    explorer
     videos
     2009
     google
@@ -17969,18 +17173,17 @@
     recently
     updated
     repositories
-    andrsd
-    hermes2d
-    bry4n
-    rrdtool
-    monitor
-    bash
-    orfjackal
-    dimdwarf
-    insider42
-    mangos
-    rodreegez
-    webrat
+    tametomo
+    aethyra
+    sixapart
+    typepad
+    motion
+    joewilliams
+    baracus
+    joshjgt
+    census_utils
+    rails
+    rails
     join
     growing
     selection
@@ -18550,485 +17753,6 @@
     reserved
 
   url: http://www.jetbrains.com/idea/
-  user: jhu_p
-- !ruby/object:Content 
-  tag: programming
-  text: |
-    eclipse
-    org
-    home
-    eclipse
-    plugin
-    central
-    eclipse
-    live
-    bugzilla
-    planet
-    eclipse
-    eclipse
-    wiki
-    foundation
-    portal
-    home
-    downloads
-    users
-    members
-    committers
-    resources
-    projects
-    new
-    eclipse
-    enterprise
-    java
-    equinox
-    rcp
-    embedded
-    mobile
-    pulsar
-    modeling
-    application
-    frameworks
-    language
-    ides
-    plugins
-    users
-    documentation
-    report
-    bug
-    announcements
-    2009
-    eclipse
-    summit
-    europe
-    starts
-    weeks
-    just
-    weeks
-    eclipse
-    summit
-    europe
-    ese
-    start
-    ludwigsburg
-    germany
-    plan
-    attend
-    good
-    time
-    register
-    year
-    2009
-    eclipse
-    pulsar
-    gains
-    momentum
-    mobile
-    industry
-    leaders
-    new
-    release
-    pulsar
-    adds
-    support
-    ericsson
-    sony
-    ericsson
-    ctia
-    wireless
-    entertainment
-    san
-    diego
-    calif
-    october
-    2009
-    eclipse
-    foundation
-    today
-    announced
-    new
-    release
-    eclipse
-    pulsar
-    application
-    development
-    tools
-    platform
-    2009
-    announcing
-    eclipse
-    modeling
-    days
-    nyc
-    toronto
-    register
-    eclipse
-    modeling
-    days
-    held
-    new
-    york
-    city
-    november
-    toronto
-    november
-    cost
-    attend
-    need
-    pre
-    register
-    2009
-    announcing
-    eclipsert
-    days
-    austin
-    toronto
-    sign
-    eclipsert
-    days
-    held
-    austin
-    november
-    toronto
-    november
-    chance
-    learn
-    eclipsert
-    equinox
-    osgi
-    2009
-    sign
-    eclipse
-    training
-    eclipse
-    foundation
-    eclipse
-    member
-    companies
-    pleased
-    announce
-    fall
-    2009
-    training
-    class
-    series
-    training
-    excellent
-    opportunity
-    software
-    developers
-    architects
-    learn
-    eclipse
-    rich
-    client
-    platform
-    rcp
-    equinox
-    osgi
-    modeling
-    community
-    news
-    2009
-    nwire
-    php
-    released
-    real
-    time
-    php
-    code
-    visualization
-    exploration
-    nwire
-    software
-    independent
-    software
-    vendor
-    offering
-    innovative
-    eclipse
-    based
-    tools
-    today
-    announced
-    general
-    availability
-    nwire
-    php
-    nwire
-    php
-    accelerates
-    php
-    development
-    helping
-    developers
-    navigate
-    code
-    better
-    understand
-    architecture
-    applica
-    2009
-    jetty
-    arrives
-    eclipse
-    webtide
-    jetty
-    developers
-    released
-    version
-    popular
-    java
-    servlet
-    container
-    source
-    code
-    new
-    release
-    available
-    eclipse
-    foundation
-    eclipse
-    public
-    licence
-    epl
-    jetty
-    continues
-    available
-    codehaus
-    project
-    apache
-    license
-    jetty
-    2009
-    instantiations
-    releases
-    gwt
-    designer
-    support
-    ext
-    gwt
-    instantiations
-    today
-    announced
-    release
-    gwt
-    designer
-    eclipse
-    based
-    gui
-    creation
-    tool
-    developing
-    interactive
-    ajax
-    applications
-    new
-    version
-    adds
-    comprehensive
-    support
-    ext
-    gwt
-    gxt
-    java
-    library
-    continued
-    support
-    latest
-    releases
-    google
-    2009
-    eclipsesource
-    completes
-    certification
-    secure
-    eclipse
-    plug
-    repository
-    eclipsesource
-    leading
-    provider
-    eclipse
-    runtime
-    products
-    services
-    today
-    announced
-    received
-    certification
-    proprietary
-    process
-    validating
-    securing
-    open
-    source
-    components
-    industry
-    achievement
-    offers
-    unprecedented
-    protection
-    reassurance
-    2009
-    myeclipse
-    milestone
-    eclipse
-    galileo
-    struts
-    eclipse
-    profiler
-    support
-    enterprise
-    newest
-    release
-    built
-    support
-    eclipse
-    galileo
-    delivers
-    powerful
-    java
-    profiler
-    used
-    standalone
-    tool
-    outside
-    myeclipse
-    profile
-    java
-    application
-    eclipse
-    plug
-    applet
-    industry
-    leading
-    support
-    requested
-    struts
-    framework
-    enabling
-    featured
-    strategic
-    member
-    view
-    members
-    new
-    plugins
-    mcustudio
-    valpha
-    2009
-    eclipse
-    communication
-    framework
-    2009
-    graph
-    plug
-    2009
-    zen
-    platform
-    2009
-    masters
-    java
-    assignment
-    plugin
-    2009
-    google
-    eclipse
-    search
-    ges
-    2009
-    trex
-    ttcn
-    refactoring
-    metrics
-    tool
-    daily
-    2009
-    new
-    updated
-    view
-    plugins
-    eclipse
-    live
-    reminder
-    equinox
-    cloud
-    heaven
-    2009
-    podcast
-    eclipse
-    summit
-    europe
-    keynote
-    tony
-    bailetti
-    carleton
-    university
-    2009
-    reminder
-    creating
-    custom
-    dojo
-    widgets
-    using
-    wtp
-    2009
-    eclipse
-    talk
-    podcast
-    october
-    2009
-    2009
-    podcast
-    eclipse
-    summit
-    europe
-    keynote
-    don
-    syme
-    microsoft
-    research
-    2009
-    upcoming
-    event
-    overview
-    eclipse
-    development
-    process
-    committers
-    2009
-    eclipse
-    embedded
-    day
-    2009
-    video
-    eclipse
-    based
-    is2t
-    embedded
-    tools
-    2009
-    live
-    eclipse
-    rss
-    feeds
-    home
-    privacy
-    policy
-    terms
-    use
-    copyright
-    agent
-    legal
-    contact
-    copyright
-    2009
-    eclipse
-    foundation
-    rights
-    reserved
-
-  url: http://www.eclipse.org/
   user: jhu_p
 - !ruby/object:Content 
   tag: programming
@@ -22580,29 +21304,30 @@
     easy
     write
     read
+    output
+    love
     ruby
-    knows
-    mean
-    want
-    math
-    entire
-    array
-    cities
-    london
-    oslo
-    paris
-    amsterdam
-    berlin
-    visited
-    berlin
-    oslo
+    say
+    love
+    ruby
     puts
-    need
-    visit
-    following
-    cities
-    cities
-    visited
+    say
+    output
+    love
+    ruby
+    say
+    love
+    love
+    puts
+    say
+    upcase
+    output
+    love
+    ruby
+    times
+    times
+    puts
+    say
     rubyworld
     conference
     rubyworld
@@ -22775,20 +21500,12 @@
     ruby
     ruby
     projects
-    redmine
-    seattle
-    projects
-    codeforpeople
-    parsetree
+    rubot
+    rmagick
+    phprpc
     ruby
-    parse
-    tree
-    tools
-    amazon
-    ec2
-    query
-    api
-    rubygem
+    activerecord
+    mongrel
     syndicate
     recent
     news
@@ -22861,410 +21578,698 @@
     votes
     answers
     views
-    phpmyadmin
-    located
-    apache
-    phpmyadmin
-    plesk
-    apache
-    locate
-    14s
+    supporting
+    limited
+    number
+    currencies
+    cocoa
+    touch
+    cocoa
+    cocoa
+    touch
+    currency
+    localization
+    locale
     ago
-    murvinlai
-    109
+    meltemi
+    953
     votes
     answers
     views
-    run
-    query
+    question
+    qlist
+    qstinglist
+    nokia
+    qt4
+    qstring
+    16s
+    ago
+    yan
+    bellavance
+    votes
+    answers
+    views
+    java
+    cryptography
+    library
+    sporadically
+    fails
+    start
+    java
+    osx
+    cryptography
+    21s
+    ago
+    jonoabroad
+    votes
+    answers
+    538
+    views
+    active
+    bold
+    delphi
+    users
+    bold
+    delphi
+    51s
+    ago
+    unknown
+    google
+    votes
+    answers
+    views
+    create
+    return
+    default
+    imagefieldfile
     inside
-    oracle
+    function
+    django
+    django
+    imagefield
+    ago
+    thornomad
+    129
+    votes
+    answers
+    333
+    views
+    using
+    threadpool
+    queueuserworkitem
+    asp
+    net
+    high
+    traffic
+    scenario
+    asp
+    net
+    threads
+    thread
+    pool
+    best
+    practices
+    ago
+    jeff
+    sternal
+    175
+    votes
+    answers
+    views
+    efficient
+    java
+    equals
+    object
+    method
+    implementation
+    java
+    ago
+    silky
+    037
+    votes
+    answers
+    views
+    arrange
+    numbers
+    ascending
+    order
+    using
+    swap
+    statement
+    sorting
+    homework
+    ago
+    sambowry
+    585
+    vote
+    answers
+    views
+    quickly
+    dulpicate
+    rows
+    sql
+    sql
+    query
+    ago
+    abudker
+    votes
+    answers
+    129
+    views
+    putting
+    function
+    statement
+    efficient
+    efficiency
+    ago
+    peeter
+    joot
+    votes
+    answers
+    views
+    big
+    logn
+    log
+    base
+    big
+    complexity
+    math
+    mathematical
+    optimization
+    ago
+    heath
+    hunnicutt
+    266
+    votes
+    answers
+    views
+    best
+    way
+    single
+    operation
+    time
+    future
+    net
+    lambda
+    ago
+    matthew
+    whited
+    334
+    votes
+    answer
+    views
+    custom
+    url
+    user
+    php
+    php
+    url
+    url
+    rewriting
+    custom
+    ago
+    718
+    votes
+    answers
+    views
+    does
+    font
+    size
+    mean
+    font
+    size
+    html
+    ago
+    peter
+    mortensen
+    115
+    votes
+    answer
+    views
+    start
+    storyboard
+    text
+    changes
+    silverlight
+    silverlight
+    silverlight
+    ago
+    justinangel
+    249
+    vote
+    answer
+    views
+    paste
+    temporary
+    files
+    unix
+    unix
+    shell
+    redirect
+    pipes
+    ago
+    pozs
+    bal
+    304
+    votes
+    answers
+    views
+    sort
+    vector
+    based
+    values
+    sorting
+    ago
+    ben
+    bolker
+    votes
+    answers
+    views
+    set
+    default
+    schema
     stored
     procedure
     sql
-    plsql
-    oracle
-    20s
-    ago
-    rexem
-    305
-    votes
-    answers
-    views
-    check
-    hardware
-    iphone
-    app
-    running
-    iphone
-    iphone
-    sdk
-    32s
-    ago
-    blaenk
-    940
-    votes
-    answers
-    views
-    ssrs
-    sort
-    report
-    drill
-    rows
-    ssrs
-    33s
-    ago
-    fatcat1111
-    592
-    vote
-    answer
-    views
-    opening
-    large
-    24gb
-    file
-    large
-    file
-    support
-    cygwin
-    48s
-    ago
-    swangren
-    355
-    vote
-    answers
-    views
-    convert
-    rgb
-    iplimage
-    arrays
-    opencv
-    iplimage
-    arrays
-    performance
-    ago
-    jacob
-    022
-    votes
-    answers
-    views
-    draw
-    triangle
-    image
-    using
-    matlab
-    matlab
-    homework
-    ago
-    gnovice
-    895
-    vote
-    answers
-    187
-    views
-    excessive
-    use
-    lucene
-    good
-    lucene
-    workload
-    performance
-    project
-    ago
-    yasir
-    laghari
-    votes
-    answers
-    views
-    update
-    column
-    based
-    column
-    value
-    subsonic
-    subsonic
-    ago
-    harlev
-    371
-    votes
-    answers
-    views
-    ascii
-    strings
-    endianness
-    endianness
-    ascii
-    ago
-    caf
-    712
-    votes
-    answers
-    views
-    finding
-    cache
-    size
-    linux
-    linux
-    ago
-    jkg
-    votes
-    answers
-    views
-    textbox
-    value
-    php
-    php
-    email
-    form
-    string
-    ago
-    crash893
-    733
-    vote
-    answers
-    views
-    whats
-    difference
-    rest
-    restful
-    rest
-    restful
-    ago
-    justin
-    ethier
-    105
-    votes
-    answers
-    views
-    works
-    number
-    string
-    contained
-    nsarray
-    objective
-    nsarray
-    cocoa
-    ago
-    ronan
-    votes
-    answers
-    views
-    convert
-    rfc822
-    python
-    datetime
-    object
-    python
-    rfc822
-    ago
-    udbhav
-    vote
-    answers
-    views
-    general
-    guidelines
-    best
-    practices
-    mind
-    designing
-    database
-    application
-    database
-    database
-    design
-    database
-    modeling
-    best
-    practices
-    ago
-    tenner
-    136
-    votes
-    answers
-    views
-    sqldatasource
-    timout
-    management
-    studio
-    net
-    sql
-    sqldatasource
-    ago
-    stefan
-    610
-    votes
-    answers
-    views
-    chrome
-    box
-    model
-    wrongwhen
-    div
-    display
-    table
-    css
-    css
-    layout
-    box
-    model
-    chrome
-    ago
-    neurotoxine
-    votes
-    answers
-    views
-    way
-    identify
-    test
-    net
-    visual
-    studio
-    mstest
-    unit
-    testing
-    exception
-    handling
-    ago
-    mark
-    simpson
-    307
-    votes
-    answers
-    views
-    git
-    post
-    update
-    hook
-    runs
-    script
-    needs
-    access
-    files
-    repository
-    git
-    post
-    update
-    hook
-    ago
-    crow
-    386
-    votes
-    answers
-    views
-    entityset
-    querying
-    linq
-    entityset
-    sql
-    ago
-    codechobo
-    votes
-    answer
-    views
-    retrive
-    distinct
-    month
-    year
-    values
-    table
-    using
-    linq
-    sql
-    linq
-    sql
-    ago
-    csharpatl
-    863
-    votes
-    answers
-    views
-    convert
-    statement
-    body
-    lambda
-    convert
-    lambda
-    delegates
-    ago
-    dahlbyk
-    990
-    votes
-    answers
-    views
-    jpa
-    reverse
-    engineering
-    adding
-    finder
-    methods
-    jpa
-    ago
-    unknown
-    yahoo
-    351
-    vote
-    answers
-    views
-    fluentnhibernate
-    set
-    default
-    column
-    value
-    bool
-    fluent
-    nhibernate
+    server
     sql
     server
     2005
+    schema
+    stored
+    procedures
+    ago
+    cade
+    roux
+    votes
+    answers
+    views
+    act_as_revisable
+    returns
+    objectrevision
+    instead
+    just
+    revision
+    ruby
+    rails
+    ago
+    gir
+    votes
+    answers
+    704
+    views
+    step
+    net
+    framework
+    source
+    vs2008
+    sp1
+    visual
+    studio
+    2008
+    visual
+    studio
+    2008
+    sp1
+    source
+    server
     net
     ago
-    nikola
-    malovic
+    shrike
+    304
     votes
     answer
     views
-    prevent
-    text
-    page
-    content
-    double
-    click
-    highlighting
-    html
-    javascript
-    html
-    javascript
-    game
+    difference
+    std
+    runtime_error
+    std
+    exception
+    exception
+    handling
     ago
-    jani
-    hartikainen
-    661
-    votes
-    316
+    gman
+    173
+    vote
     answers
     views
-    motto
-    developer
-    programmer
-    subjective
-    programming
-    polls
-    discussion
+    url
+    document
+    library
+    sharepoint
+    document
+    sharepoint
     ago
-    johnofcross
-    133
+    stranger001
     votes
     answers
     views
+    specify
+    parameter
+    web
+    service
+    jaxws
+    webservices
+    spring
+    java
+    dry
+    ago
+    les2
+    347
+    votes
+    answers
+    608
+    views
+    embedding
+    assemblies
+    inside
+    assembly
+    net
+    assembly
+    assemblies
+    dll
+    ago
+    cheeso
+    546
+    vote
+    answers
+    views
+    jquery
+    stop
+    ajax
+    function
+    escaping
+    json
+    string
+    used
+    post
+    data
     javascript
-    match
-    substring
-    regexp
+    jquery
+    json
+    ajax
+    ago
+    ticallian
+    163
+    votes
+    answers
+    views
+    turn
+    off
+    intellisense
+    2008
+    single
+    project
+    vs2008
+    project
+    size
+    intellisense
+    visual
+    studio
+    2008
+    ago
+    brad
+    irby
+    vote
+    answers
+    views
+    mouseover
+    event
+    problem
+    jquery
+    jquery
+    10m
+    ago
+    karim79
+    vote
+    answers
+    282
+    views
+    flex
+    app
+    embedding
+    communicating
+    older
+    flash
+    app
+    flex
+    flash
+    actionscript
+    actionscript
+    10m
+    ago
+    luke
+    bayes
+    365
+    vote
+    answers
+    views
+    com
+    add
+    excel
+    doesn
+    load
+    excel
+    launched
+    opening
+    file
+    excel
+    add
+    vb6
+    com
+    11m
+    ago
+    nick
+    hebb
+    389
+    votes
+    answers
+    views
     regex
-    javascript
+    ignore
+    succeeding
+    word
+    occurence
+    regex
+    11m
     ago
-    skidding
-    246
+    jaime
+    votes
+    answers
+    views
+    designing
+    portable
+    app
+    local
+    lightweight
+    database
+    sync
+    central
+    server
+    design
+    11m
+    ago
+    dour
+    high
+    arch
+    400
+    votes
+    answer
+    views
+    relative
+    imports
+    init
+    multi
+    file
+    django
+    apps
+    python
+    django
+    imports
+    12m
+    ago
+    devdevdev
+    851
+    vote
+    answers
+    853
+    views
+    choosing
+    default
+    value
+    enum
+    type
+    having
+    change
+    values
+    net
+    enums
+    13m
+    ago
+    cian
+    votes
+    answers
+    views
+    tsql
+    function
+    return
+    number
+    rows
+    result
+    set
+    function
+    sql
+    tsql
+    sql
+    server
+    scalar
+    function
+    13m
+    ago
+    data
+    jockey
+    votes
+    answers
+    views
+    linux
+    command
+    sum
+    integers
+    line
+    shell
+    script
+    linux
+    13m
+    ago
+    nym
+    votes
+    answers
+    views
+    dynamically
+    add
+    columns
+    table
+    database
+    sqlite
+    14m
+    ago
+    718
+    vote
+    answers
+    364
+    views
+    developing
+    iphone
+    applications
+    mac
+    iphone
+    iphone
+    sdk
+    apple
+    mac
+    15m
+    ago
+    sth
+    votes
+    answer
+    views
+    opacity
+    using
+    absolutely
+    positioned
+    divs
+    working
+    internet
+    explorer
+    html
+    css
+    transparency
+    15m
+    ago
+    camomilecase
+    202
+    votes
+    answer
+    views
+    place
+    rectangle
+    grid
+    order
+    java
+    drawing
+    grid
+    15m
+    ago
+    oscar
+    reyes
+    624
+    votes
+    answer
+    views
+    change
+    users
+    secured
+    access
+    application
+    access
+    15m
+    ago
+    tony
+    toews
+    836
+    votes
+    answers
+    views
+    reformat
+    mp3
+    filename
+    saved
+    paperclip
+    paperclip
+    ruby
+    rails
+    16m
+    ago
+    rordude
+    votes
+    answers
+    views
+    lucene
+    net
+    alternative
+    sorting
+    lucene
+    net
+    indexing
+    16m
+    ago
+    bobtheman
+    votes
+    answer
+    views
+    rss
+    email
+    daemon
+    rss
+    email
+    16m
+    ago
+    mauricio
+    scheffer
+    111
+    vote
+    answers
+    views
+    run
+    multiple
+    threads
+    geckofx
+    winforms
+    multithreading
+    message
+    pump
+    17m
+    ago
+    avram
+    000
+    votes
+    answer
+    views
+    using
+    named
+    pipes
+    files
+    windows
+    pipes
+    named
+    pipes
+    path
+    filepath
+    18m
+    ago
+    remy
+    lebeau
+    099
     votes
     answer
     views
@@ -23282,283 +22287,47 @@
     php
     form
     element
-    ago
-    john
-    rasch
-    votes
-    answers
-    views
-    basic
-    real
-    life
-    trying
-    use
-    method
-    object
-    oriented
-    php
-    java
-    ago
-    delirium
-    tremens
-    613
-    votes
-    answers
-    views
-    library
-    read
-    mysql
-    dump
-    mysqldump
-    mysql
-    library
-    api
-    python
-    ago
-    joseph
-    turian
-    votes
-    answer
-    views
-    determine
-    particluar
-    key
-    combination
-    multi
-    dimensional
-    associative
-    array
-    php
-    php
-    multidimensional
-    array
-    key
-    ago
-    kai
-    679
-    votes
-    answers
-    views
-    ie7
-    versus
-    floating
-    issue
-    ie7
-    css
-    float
-    html
-    firefox
-    ago
-    apapf317
-    votes
-    answer
-    views
-    context
-    menu
-    loaded
-    swf
-    flex
-    actionscript
-    ago
-    luis
-    votes
-    answer
-    views
-    count
-    elements
-    inside
-    object
-    jquery
-    ago
-    steve
-    wortham
-    488
-    votes
-    answers
-    views
-    logging
-    stackoverflow
-    com
-    closed
-    stackoverflow
-    ago
-    jonathan
-    votes
-    answers
-    views
-    perl
-    split
-    ignore
-    spaces
-    double
-    quotes
-    perl
-    regex
-    perl
-    faq
-    ago
-    manni
-    530
-    votes
-    answers
-    views
-    proper
-    way
-    extend
-    asp
-    panel
-    asp
-    net
-    custom
-    server
-    controls
+    18m
     ago
     jeff
-    sternal
-    165
-    vote
-    answers
-    views
-    regex
-    textpad
-    regex
-    textpad
-    pattern
-    ago
-    jacobm
-    862
     votes
     answers
     views
-    entity
-    framework
-    group
-    order
-    entity
-    framework
-    asp
-    net
-    visual
-    studio
-    2008
-    ago
-    craig
-    stuntz
-    votes
-    answers
-    views
-    00626
-    sql
-    loader
-    error
-    sql
-    oracle
-    ago
-    dcookie
-    587
-    vote
-    answers
-    views
-    parse
-    string
-    using
-    regex
-    perl
-    regex
-    parse
-    perl
-    faq
-    ago
-    manni
-    530
-    vote
-    answers
-    views
-    define
-    non
+    input
     method
-    functions
-    header
-    libraries
-    boost
-    headers
-    static
-    warnings
+    editor
+    windows
+    return
+    false
+    wm_queryendsession
+    windows
+    ime
+    18m
     ago
-    david
-    joyner
-    847
+    heath
+    hunnicutt
+    266
     votes
     answers
     views
-    fatal
-    error
-    undefined
-    method
-    stdclass
-    php
-    mysql
-    ago
-    marc
-    gravell
-    149
-    249
-    votes
-    answers
-    views
-    firefox
-    extension
-    run
-    page
-    firefox
-    addon
-    ago
-    jack
-    votes
-    answer
-    views
-    best
-    way
-    single
-    operation
+    makes
+    erlang
+    suitable
+    soft
+    real
     time
-    future
-    net
-    lambda
+    applications
+    real
+    time
+    erlang
+    design
+    concurrency
+    message
+    passing
+    18m
     ago
-    vitaliy
-    106
-    votes
-    answers
-    views
-    build
-    field
-    lookup
-    query
-    using
-    value
-    field
-    access
-    2007
-    access
-    ago
-    lau
-    votes
-    answers
-    views
-    file
-    package
-    android
-    application
-    android
-    file
-    read
-    package
-    java
-    ago
-    commonsware
-    com
-    518
+    rvirding
+    554
     looking
     browse
     complete
@@ -23590,204 +22359,194 @@
     faq
     recent
     tags
-    static
-    process
+    sql
+    shell
+    excel
+    math
+    programming
+    jquery
+    net
+    asp
+    net
+    actionscript
     java
+    flex
+    asp
+    net
+    mvc
+    string
+    mysql
+    visual
+    studio
+    visual
+    studio
+    2008
+    net
+    html
+    ruby
+    rails
+    wpf
+    iphone
+    sdk
+    iphone
+    google
+    app
+    engine
     regex
     delphi
-    html
+    python
+    algorithm
+    windows
+    xml
+    php
+    linq
+    best
+    practices
+    silverlight
+    design
+    cocoa
+    objective
+    ajax
+    bash
+    web
+    services
+    unit
+    testing
+    security
+    linux
+    subjective
+    api
+    static
+    process
     css
     winforms
     multithreading
     database
-    best
-    practices
-    math
-    net
-    jquery
-    asp
-    net
-    python
-    ajax
     sorting
-    asp
-    net
-    mvc
-    visual
-    studio
-    2008
-    iphone
+    svn
     cocoa
     touch
-    sql
     oracle
     arrays
     performance
-    ruby
-    rails
-    visual
-    studio
+    javascript
     oop
     class
-    javascript
-    net
     ruby
-    web
-    services
     xaml
-    string
     language
     agnostic
     vim
-    php
     tsql
     sql
     server
     sql
     server
     2005
-    vba
     gui
-    unit
-    testing
-    mysql
     wcf
     perl
     http
-    objective
-    subjective
     templates
-    algorithm
     form
-    linq
-    silverlight
-    cocoa
     beginner
-    wpf
-    xml
-    git
     eclipse
     sql
     server
     2008
     internet
     explorer
-    excel
-    linux
-    security
-    svn
     debugging
     design
     patterns
-    programming
     win32
-    windows
     pointers
     linq
     sql
     android
-    design
     django
     web
     development
     generics
-    bash
-    actionscript
-    iphone
-    sdk
-    testing
     listview
+    homework
     windows
     services
-    homework
     encryption
     tags
     recent
     badges
-    civic
-    duty
-    adam
-    necromancer
-    brad
-    favorite
-    question
-    rwendi
-    civic
-    duty
-    lounges
     enlightened
-    lbushkin
-    enlightened
-    superuntitled
+    rob
+    allen
+    machinegone
     notable
     question
-    das
-    notable
-    question
-    cjibo
-    enlightened
-    tomalak
-    notable
-    question
-    darryl
-    hein
-    good
-    question
-    bitbonk
-    civic
-    duty
-    ken
-    browning
-    taxonomist
+    tom
+    tjb
+    yearling
+    steve
+    armstrong
+    yearling
+    astander
+    yearling
+    balexandre
+    yearling
+    gustavo
+    cavalcanti
+    yearling
+    johnstok
+    yearling
+    greg
+    yearling
+    stringent
+    software
+    yearling
+    bullines
+    yearling
+    drhazzard
+    yearling
+    vaibhav
+    garg
+    yearling
+    danmayer
+    yearling
+    krupan
+    yearling
+    thardas
+    yearling
+    mcwafflestix
+    yearling
+    derobert
+    yearling
+    mahdi
+    yearling
+    ahmed
+    yearling
+    jason
+    whitehorn
+    yearling
+    rohit
+    yearling
+    taeram
+    yearling
+    adl
+    yearling
+    shiju
+    yearling
+    glenner003
+    yearling
+    jason
+    catena
+    yearling
+    shrike
+    yearling
+    saucemaster
+    yearling
     paul
-    sheldrake
-    enlightened
-    noldorin
-    enlightened
-    chssply76
-    hurikhan77
-    necromancer
-    michael
-    dausmann
-    civic
-    duty
-    mike
-    abdullah
+    williams
     yearling
-    dotnetwill
-    notable
-    question
-    malfist
-    civic
-    duty
-    thomas
-    mayfield
-    taxonomist
-    tunaranch
-    yearling
-    angelblaze
-    enlightened
-    stan
-    notable
-    question
-    gath
-    enlightened
-    mitch
-    wheat
-    enlightened
-    lott
-    necromancer
-    nullpointer
-    good
-    question
-    michael
-    stum
-    necromancer
-    atanas
-    enlightened
-    chad
-    taxonomist
-    joda
+    noah
     badges
     recent
     questions

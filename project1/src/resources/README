@@ -3,7 +3,9 @@
 
 How to run:
 ===========
-Execute the 'delicious_content_processor.rb' file to run this application.
+From a directory containing the 'project1' folder:
+
+Execute the command: 'ruby project1/src/delicious_content_processor.rb'
 
 	-This will output results for Feature Set 1, Feature Set 2, and Feature Set 3.
 	
