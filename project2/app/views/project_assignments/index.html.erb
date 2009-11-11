@@ -1,0 +1,27 @@
+<table align="center" cellspacing="0" cellpadding="10px">
+  <tr>
+    <th>Start date</th>
+    <th>End date</th>
+    <th>Project scope</th>
+    <th>Engineer</th>
+    <th>Project</th>
+    <th colspan="3">Options</th>
+  </tr>
+
+<% @project_assignments.each do |project_assignment| %>
+  <tr class="<%=cycle('even_row','odd_row')%>">
+    <td align="center"><%=h project_assignment.start_date %></td>
+    <td align="center"><%=h project_assignment.end_date %></td>
+    <td align="center"><%=h project_assignment.project_scope.name %></td>
+    <td align="center"><%=h project_assignment.engineer.name %></td>
+    <td align="center"><%=h project_assignment.project.name %></td>
+    <td><%= link_to 'Show', project_assignment %></td>
+    <td><%= link_to 'Edit', edit_project_assignment_path(project_assignment) %></td>
+    <td><%= link_to 'Destroy', project_assignment, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+<%= will_paginate @engineers %>
+<br />
+
+<%= link_to 'New Assignment', new_project_assignment_path %>

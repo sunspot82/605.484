@@ -1,0 +1,29 @@
+<% form_for(@project_assignment) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :start_date %><br />
+    <%= f.date_select :start_date %>
+  </p>
+  <p>
+    <%= f.label :end_date %><br />
+    <%= f.date_select :end_date %>
+  </p>
+  <p>
+    <%= f.label :project_scope_id %><br />
+    <%= f.select :project_scope_id, ProjectScope.find(:all).collect { |scope| [scope.name,scope.id] }%>
+  </p>
+  <p>
+    <%= f.label :engineer_id %><br />
+    <%= f.select :engineer_id, Engineer.find(:all).collect { |engineer| [engineer.name,engineer.id]} %>
+  </p>
+  <p>
+    <%= f.label :project_id %><br />
+    <%= f.select :project_id, Project.find(:all).collect { |project| [project.name,project.id] } %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', project_assignments_path %>

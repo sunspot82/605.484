@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: Engineer One
+  years_of_experience: 1
+  skill_level_id: 0
+
+two:
+  name: Engineer Two
+  years_of_experience: 1
+  skill_level_id: 0

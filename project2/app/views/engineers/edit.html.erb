@@ -1,0 +1,33 @@
+<% form_for(@engineer) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+     <%= f.label 'Tag List (Delimiter = ,)' %><br />
+     <%= f.text_field :tag_list %>
+  </p>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>  
+  <p>
+    <%= f.label :years_of_experience %><br />
+    <%= f.text_field :years_of_experience %>
+  </p>
+  <p>
+    <%= f.label :skill_level_id %><br />
+    <%= select :engineer, :skill_level_id, SkillLevel.find(:all).collect {|skill| [skill.name,skill.id] } %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+  <% end %>
+  <hr />
+  <p>
+     <%= link_to "Edit Assignments", :controller => "project_assignments", :action => "index", :engineer_id => @engineer %>
+  </p>
+  <p> 
+      <%= link_to "Edit Resources", :controller => "Resources", :action =>"index", :engineer_id => @engineer %>
+  </p>    
+
+<%= link_to 'Show', @engineer %> |
+<%= link_to 'Back', engineers_path %>

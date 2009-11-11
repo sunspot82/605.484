@@ -1,0 +1,33 @@
+<table width="100%">
+<tr valign="top"><td>
+<fieldset>
+         <legend><span class="entryLabel">Engineer <%=controller.action_name.upcase%></span></legend>
+   <table align="center" cellspacing="0" cellpadding="10px">
+      <tr>
+         <th>Name</th>
+         <th>Years of experience</th>
+         <th>Skill level</th>
+         <th colspan="3">Options</th>
+      </tr>
+
+      <% @engineers.each do |engineer| %>
+      <tr class="<%= cycle('even_row','odd_row') %>">
+         <td align="center"><%=h engineer.name %></td>
+         <td align="center"><%=h engineer.years_of_experience %></td>
+         <td align="center"><%=h engineer.skill_level_id %></td>
+         <td><%= link_to 'Show', engineer %></td>
+         <td><%= link_to 'Edit', edit_engineer_path(engineer) %></td>
+         <td><%= link_to 'Destroy', engineer, :confirm => 'Are you sure?', :method => :delete %></td>
+      </tr>
+      <% end %>      
+      </table>
+      <div style="text-align: center; margin-top: 5px;">
+         <%= will_paginate @engineers %>
+      </div>
+      <br />      
+      <%= link_to 'New engineer', new_engineer_path %>
+      </fieldset>
+</td><td align="center">
+   <%=render( :partial => "tagcloud" ) %>
+</td></tr>
+</table>

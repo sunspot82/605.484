@@ -1,0 +1,24 @@
+<div>   
+      <% if  !@engineer.nil? && ! @engineer.project_assignments.empty? %>
+         <table width="100%" style="border-bottom-style: double; border-left-style: double">
+            <tr style="background-color: #c0c0c0">
+               <th>Name</th>
+               <th>Scope</th>
+            </tr>
+         <% @engineer.project_assignments.each do |assignment| %>
+            <tr class="<%=cycle('even_row','odd_row')%>">
+               <td align="center">
+                  <%= assignment.project.name %>
+               </td>
+               <td align="center">
+                  <%= assignment.project_scope.name %>
+               </td>
+            </tr>
+         <% end %>
+         </table>         
+      <% else %>
+         <div style="margin-top: 10px">
+            No Assignments Uploaded...   
+         </div>               
+      <% end %>
+</div>
