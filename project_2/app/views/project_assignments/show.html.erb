@@ -1,0 +1,28 @@
+<p>
+  <b>Start date:</b>
+  <%=h @project_assignment.start_date %>
+</p>
+
+<p>
+  <b>End date:</b>
+  <%=h @project_assignment.end_date %>
+</p>
+
+<p>
+  <b>Project:</b>
+  <%=h @project_assignment.project.name %>
+</p>
+
+<p>
+  <b>Project scope:</b>
+  <%=h @project_assignment.project_scope.name %>
+</p>
+
+<p>
+  <b>Engineer:</b>
+  <%=h @project_assignment.engineer.name %>
+</p>
+
+
+<%= link_to 'Edit', edit_project_assignment_path(@project_assignment) %> |
+<%= link_to 'Back', project_assignments_path %>

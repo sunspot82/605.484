@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>Resources: <%= controller.action_name %></title>
+  <%= stylesheet_link_tag 'scaffold' %>
+  <%= stylesheet_link_tag 'engineer' %>
+</head>
+<body>
+<div id="banner">
+   Resources...
+</div>
+<div id="navbar">
+   <%= link_to_unless_current 'Assignments', :controller => "project_assignments", :action => :index %>
+   <%= link_to_unless_current 'Engineers', :controller => "engineers", :action => :index %>
+   <%= link_to_unless_current 'Projects', :controller => "projects", :action => :index %>   
+   <%= link_to_unless_current 'Resources', :controller => "resources", :action => :index %>
+</div>
+<p style="color: green"><%= flash[:notice] %></p>
+<div id="maincontent">
+   <% if flash[:notice] %>
+      <p class="notice"><%= flash[:notice] %></p>   
+   <% end %>
+   <% if flash[:error] %>
+      <p class="error"><%= flash[:error] %></p>
+   <% end %>
+   <div class="entry">
+      <fieldset>
+         <legend><span class="entryLabel"><%=controller.action_name.upcase%> Resource</span></legend>   
+         <%= yield %>
+      </fieldset>
+   </div>
+</div>
+</body>
+</html>

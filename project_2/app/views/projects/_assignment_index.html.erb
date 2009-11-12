@@ -1,0 +1,28 @@
+<div>   
+      <% if  !@project.nil? && ! @project.project_assignments.empty? %>
+         <table width="100%" style="border-bottom-style: double; border-left-style: double">
+            <tr>               
+               <th>Scope</th>
+               <th>Engineer</th>
+               <th>Experience (years)</th>
+            </tr>
+         <% @project.project_assignments.each do |assignment| %>            
+            <tr class="<%=cycle('even_row','odd_row')%>">               
+               <td align="center">
+                  <%= assignment.project_scope.name %>
+               </td>
+               <td align="center">
+                  <%= assignment.engineer.name %>
+               </td>
+               <td align="center">
+                  <%= assignment.engineer.years_of_experience %>
+               </td>
+            </tr>
+            <% end %>
+         </table>         
+      <% else %>
+         <div style="margin-top: 10px">
+            No Project Assignments...   
+         </div>               
+      <% end %>
+</div>

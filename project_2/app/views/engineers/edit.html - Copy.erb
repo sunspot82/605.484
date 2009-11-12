@@ -1,0 +1,50 @@
+<% form_for(@engineer, :html => { :multipart => true } ) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+     <%= f.label 'Tag List (Delimiter = ,)' %><br />
+     <%= f.text_field :tag_list %>
+  </p>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>  
+  <p>
+    <%= f.label :years_of_experience %><br />
+    <%= f.text_field :years_of_experience %>
+  </p>
+  <p>
+    <%= f.label :skill_level_id %><br />
+    <%= select :engineer, :skill_level_id, SkillLevel.find(:all).collect {|skill| [skill.name,skill.id] } %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+  <% end %>
+  <hr />
+  <p>
+     <table width="100%" border="1">
+     <tr><th colspan="2" align="center">Assignments</th></tr>
+     <tr valign="top"><td width="66%">
+        <%= render( :partial => "assignment_index", :object => @engineer ) %>
+     </td><td width="34%">     
+        <%= render( :partial => "assignment_add", :object => @engineer ) %>
+      </td></tr>
+      </table>
+     <!--<a href="#" onclick="toggleVisible(['assignment_add','assignment_index']);">Add Assignment</a>-->
+  </p>
+  <p> 
+      <table width="100%" border="1">
+      <tr><th colspan="2" align="center">Resources</th></tr>
+      <tr valign="top"><td width="70%">
+         <%= render( :partial => "resource_index", :object => @engineer ) %>
+      </td><td width="30%">
+         <%= render( :partial => "resource_add", :object => @engineer ) %>
+      </td></tr>
+      </table>
+      <!-- <a href="#" onclick="toggleVisible(['resource_add','resource_index']);">Add Resource</a> -->
+  </p>  
+  
+
+<%= link_to 'Show', @engineer %> |
+<%= link_to 'Back', engineers_path %>

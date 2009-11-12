@@ -1,0 +1,31 @@
+<table width="100%">
+   <tr valign="top"><td>
+   <fieldset>
+      <legend><span class="entryLabel">Project <%=controller.action_name.upcase%></span></legend>
+   <table align="center" cellspacing="0" cellpadding="10px">
+      <tr>
+         <th>Name</th>
+         <th>Description</th>
+         <th>Organization</th>
+         <th colspan="3">Options</th>
+      </tr>
+
+      <% @projects.each do |project| %>
+      <tr class="<%= cycle('even_row','odd_row') %>">
+         <td align="center"><%=h project.name %></td>
+         <td align="center"><%=h project.description %></td>
+         <td align="center"><%=h project.organization_id %></td>
+         <td><%= link_to 'Show', project %></td>
+         <td><%= link_to 'Edit', edit_project_path(project) %></td>
+         <td><%= link_to 'Destroy', project, :confirm => 'Are you sure?', :method => :delete %></td>
+      </tr>
+      <% end %>
+   </table>
+   <%= will_paginate @projects %>
+   <br />
+   <%= link_to 'New project', new_project_path %>
+   </fieldset>
+   </td><td align="center">
+      <%=render( :partial => "tagcloud" ) %>
+   </td></tr>
+   </table>

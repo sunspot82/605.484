@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: Maintenance 1.0
+  description: MyString
+  organization_id: 1
+
+two:
+  name: Future Endevours
+  description: MyString
+  organization_id: 1

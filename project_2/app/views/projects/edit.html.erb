@@ -1,0 +1,32 @@
+<fieldset>
+      <legend><span class="entryLabel">Project <%=controller.action_name.upcase%></span></legend>
+<% form_for(@project) do |f| %>
+  <%= f.error_messages %>
+  <p>
+     <%= f.label 'Tag List (Delimiter = ,)' %>:<br />
+     <%= f.text_field :tag_list %>
+  </p
+  <p>
+    <%= f.label :name %>:<br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :description %>:<br />
+    <%= f.text_field :description %>
+  </p>
+  <p>
+    <%= f.label :organization_id %>:<br />
+    <span class="nonEditableField"><%= f.label @project.organization.name %></span>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<p>
+   <%= link_to "Edit Assignments", :controller => "project_assignments", :action => :index, :project_id => @project.id %>
+</p>
+
+<%= link_to 'Show', @project %> |
+<%= link_to 'Back', projects_path %>
+</fieldset>

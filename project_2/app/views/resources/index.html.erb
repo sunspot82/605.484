@@ -1,0 +1,22 @@
+<table width="100%" align="center" cellspacing="0" cellpadding="10px">
+  <tr>
+    <th>Role</th>
+    <th>Engineer</th>
+    <th>Options</th>
+  </tr>
+
+<% @resources.each do |resource| %>
+  <tr class="<%= cycle('even_row','odd_row')%>">
+    <td align="center"><%=h resource.role %></td>
+    <td align="center"><%=h resource.engineer.name %></td>
+    <td align="center"><%= link_to 'Show', resource %> | 
+          <%= link_to 'Edit', edit_resource_path(resource) %> |
+          <%= link_to 'Destroy', resource, :confirm => 'Are you sure?', :method => :delete %>
+    </td>
+  </tr>
+<% end %>
+</table>
+<%= will_paginate @resources %>
+<br />
+
+<%= link_to 'New resource', new_resource_path %>

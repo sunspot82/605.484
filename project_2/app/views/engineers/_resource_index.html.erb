@@ -1,0 +1,28 @@
+<div>
+   <% if  ! @engineer.nil? && @engineer.resources.length > 0 %>      
+      <table width="100%" style="border-bottom-style: double; border-left-style: double">
+         <tr style="background-color: #c0c0c0">
+            <th>Thumbnail</th>
+            <th>Label</th>
+            <th>Options</th>
+         </tr>
+      <% @engineer.resources.each do |r| %>
+         <tr class="<%=cycle('even_row','odd_row')%>">
+            <td align="center">
+               <%= image_tag  r.f.url(:thumb) %>
+            </td>
+            <td align="center">            
+               <%=r.role%>
+            </td>
+            <td align="center">
+               <a href="<%=r.f.url%>" target="_blank">View</a> | <%= link_to("Delete" , :id => r.id, :action => "destroy_resource" ) %>            
+            </td>
+         </tr>         
+      <% end %>
+      </table> 
+   <% else %>
+      <div style="margin-top: 10px">
+         No Resources Uploaded...   
+      </div>      
+   <% end %>
+</div>
