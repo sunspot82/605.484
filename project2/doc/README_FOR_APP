@@ -42,6 +42,7 @@ From the root directory (the parent directory of this file),
   1) Start your local server
           -ruby script/server 
   2) Load database schema
+          -rake db:create
           -rake db:migrate
   3) Load sample data
           -rake db:seed
