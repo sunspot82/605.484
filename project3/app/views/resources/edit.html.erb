@@ -1,0 +1,28 @@
+<h1>Editing resource</h1>
+
+<% form_for(@resource, :html => { :multipart => true } ) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :engineer, "Engineer:" %><br />
+    <%= f.select :engineer_id, Engineer.find([@resource.engineer_id]).collect { |e| [e.name.to_s,e.id] } %>
+  </p>
+  <p>
+    <%= f.label :role, "Role:" %><br />
+    <% if @resource.role == "resume" || @resource.role == "picture" %>
+       <%= f.text_field :role, :readonly => "readonly", :class => "readonlyfield" %>
+    <% else %>
+       <%= f.text_field :role %>
+    <% end %>
+  </p>
+  <p>
+     File:<br />
+     <%= f.file_field :attachment %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @resource %> |
+<%= link_to 'Back', resources_path %>

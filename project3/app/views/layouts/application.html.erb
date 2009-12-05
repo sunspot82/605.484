@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+   
+   
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+   <head>
+      <title><%=controller.action_name.upcase %></title>
+      <%=stylesheet_link_tag  "project3.css" %>   
+      <%=javascript_include_tag :defaults %>      
+   </head>
+   <body>   
+      <div id="banner">
+         Rails Strikes Back: Project 3...
+      </div>
+      <div id="navigation">
+         <a href="/engineers">Engineers</a>
+         <a href="/project_assignments">Project Assignments</a>
+         <a href="/projects">Projects</a>         
+      </div>
+      <div id="maincontent">
+         <table width="100%" cellpadding="5px">
+         <tr valign="top"><td width="200px" bgcolor="#FFFFCC">
+         <div id="search">
+            <%= render :partial => "shared/engineer_search" %>
+         </div>
+         <% if controller.action_name.eql?("show") && controller_name.casecmp("engineers") == 0 %>
+            <div class="top_five_similar">
+               <%= render :partial => "engineers/similar", :object => @engineer %>
+            </div>
+         <% end %>
+         
+         <div class="tag_cloud">
+               <%= render :partial => "shared/tag_cloud", :locals => { :cloud_class => Engineer, :cloud_label => "Engineer" } %>
+         </div>
+         </td>
+         <td align="center" bgcolor="#99FFCC">
+         <fieldset>
+            <legend><span class="fieldsetLabel"><%="#{controller.action_name.capitalize} #{controller_name.capitalize.chop}"%></span></legend>
+            <div id="notice">
+               <%= flash[:notice] %>
+            </div>    
+            <%= yield %>
+         </fieldset>
+         </td>
+         <td width="200px" bgcolor="#FFFFCC">
+            <div id="search">
+               <%= render :partial => "shared/project_search" %>
+            </div>
+            <div class="tag_cloud">
+               <%= render :partial => "shared/tag_cloud", :locals => { :cloud_class => Project, :cloud_label => "Project" } %>
+            </div>
+         </td></tr></table>         
+      </div>
+   </body>
+</html>

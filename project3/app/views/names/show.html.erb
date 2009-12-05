@@ -1,0 +1,18 @@
+<p>
+  <b>Fname:</b>
+  <%=h @name.fname %>
+</p>
+
+<p>
+  <b>Lname:</b>
+  <%=h @name.lname %>
+</p>
+
+<p>
+  <b>Engineer:</b>
+  <%=h @name.engineer %>
+</p>
+
+
+<%= link_to 'Edit', edit_name_path(@name) %> |
+<%= link_to 'Back', names_path %>

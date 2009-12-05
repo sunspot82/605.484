@@ -1,0 +1,22 @@
+<table cellspacing="0px" cellpadding="10px">
+  <tr bgcolor="#99CC33">    
+    <th>Name</th>
+    <th>Years of experience</th>
+    <th>Skill level</th>    
+  </tr>
+
+<% @engineers.each do |engineer| %> 
+  <tr class="<%=cycle('even_row','odd_row')%>">    
+    <td align="center"><%=h engineer.name.fname + " " + engineer.name.lname %></td>
+    <td align="center"><%=h engineer.years_of_experience %></td>
+    <td align="left"><%=h engineer.skill_level.name %></td>    
+    <td><%= link_to 'Show', engineer %></td>
+    <td><%= link_to 'Edit', edit_engineer_path(engineer) %></td>
+    <td><%= link_to 'Destroy', engineer, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>   
+</table>
+<%= will_paginate @engineers %>
+<br />
+
+<%= link_to 'New engineer', new_engineer_path %>

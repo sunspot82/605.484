@@ -1,0 +1,131 @@
+body {
+   background-color: #999966;
+
+}
+h1 {
+   font-family: fantasy,cursive, serif;
+}
+td {
+   text-align:center;
+}
+.fieldsetLabel {
+   background-color:#ffff66;
+   border-style:outset;
+   font-family:cursive;arial,serif;
+   font-style:italic;
+   padding-left:2px;
+   padding-right:2px;
+}
+#banner {
+   background-color: #CC66CC;
+   text-align:center;
+   height: 50px;
+   font-style: italic;
+   font-family: cursive, Serif, Verdana, Arial, Sans-serif, Courier New;
+   font-size: 2em;
+   font-weight: 900;   
+   border: 2px outset #CCff00;
+}
+#navigation {
+   background-color: #CCCCFF;
+   text-align:center;
+   border: 2px inset #CCff00;
+}
+#navigation a {
+   display: inline
+   margin-left: 5px;
+   margin-right: 5px;
+   text-decoration: none;
+   padding-left: 5px;
+   padding-right: 5px;
+   border-left-style: solid;
+   border-right-style: solid;
+}
+#navigation a:hover {
+   color: #FFFF66;
+}
+#navigation a:active {
+   color: #FFFFFF;
+   background-color: #FFFF66;
+}
+#maincontent {
+   background-color: #CCCCCC;
+   margin-top: 10px;
+   padding-bottom: 15px;
+   border: 2px inset #CCff00;
+   font-family: arial;
+}
+.even_row {
+   background-color: #FFFFCC;
+}
+.odd_row {
+   background-color: #FFCC99;
+}
+
+#notice {
+   font-family: arial, serif, fantasy;
+   font-size: 14pt;
+   font-weight: 900;
+   font-style: italic;
+   color: #FF00FF;
+}
+.tag_cloud {
+
+   background-color: #FF99FF;
+   margin-top: 10px;   
+   padding-bottom: 10px;
+   font-family: arial,sans-serif, fantasy;
+   font-size: 8pt;   
+}
+#top_five_similar {
+   text-align:center;
+   font-family: cursive, fantasy, arial;
+   font-weight: 700;
+   font-size: 8pt;
+   color: #FF0000;
+   background-color: #CCCCCC;
+}
+
+.readonlyfield {
+   background-color: #c0c0c0;
+   border-style: inset;
+   font-weight: 900;
+}
+
+/* Error Message Styles */
+/*
+.fieldWithErrors {
+  padding: 2px;
+  background-color: red;
+  display:table; 
+}
+*/
+#errorExplanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: dot;
+}

@@ -1,0 +1,9 @@
+<div>
+<fieldset>
+   <legend><span class="fieldsetLabel">Top 5 Similar</span></legend>   
+   <%= periodically_call_remote( :url => {:action => 'get_similar', :id => @engineer.id}, :frequency => 10) %>
+   <div id="top_five_similar">
+      Loading...
+   </div>
+</fieldset>
+</div>

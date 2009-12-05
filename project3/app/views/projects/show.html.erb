@@ -1,0 +1,20 @@
+<p>
+  <b>Name:</b>
+  <%=h @project.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @project.description %>
+</p>
+
+<p>
+  <b>Organization:</b>
+  <%=h @project.organization.name %>
+</p>
+
+<p>
+   <%= link_to @project.name + "'s Assignments", project_assignments_path(:project_id => @project) %>
+</p>
+<%= link_to 'Edit', edit_project_path(@project) %> |
+<%= link_to 'Back', projects_path %>

@@ -1,0 +1,35 @@
+<h1>New engineer</h1>
+
+<% form_for(@engineer) do |f| %>
+  <%= f.error_messages %>
+  <p>
+     <%= f.label 'Tag List (Delimiter = ,)' %><br />
+     <%= f.text_field :tag_list %>
+  </p>
+  <p>
+  <%= f.label :name, "Name:"%>
+  <ul>
+  <% fields_for @engineer.name do |n| %>  
+     <p>
+        <li><%=n.label :fname, "First:" %> <%= n.text_field :fname %></li>
+     </p>
+     <p>
+        <li><%=n.label :lname, "Last:"%> <%= n.text_field :lname %></li>
+     </p>
+  <% end %>
+  </ul>
+  </p>
+  <p>
+    <%= f.label :years_of_experience, "Years of Experience:" %><br />
+    <%= f.text_field :years_of_experience %>
+  </p>
+  <p>
+    <%= f.label :skill_level_id, "Skill Level:" %><br />
+    <%= f.select :skill_level_id, SkillLevel.find(:all).collect { |s| [s.name,s.id] } %>
+  </p> 
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', engineers_path %>

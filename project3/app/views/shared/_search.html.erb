@@ -1,0 +1,27 @@
+<div id="engineer_search" style="margin-bottom: 10px;background-color:#FF9933;padding-bottom:10px">
+<fieldset>
+<legend><span class="fieldsetLabel">Engineer Search</span></legend>
+<form style="border-right-style:thin" action="/engineers/search/">
+   FirstName:<input id="fname" type="text" name="fname" /><br />
+   LastName:<input id="lname" type="text" name="lname" /><br />
+   Experience (at least):<select name="years">
+                     <option value="0">0</option>
+                     <option value="2">2</option>
+                     <option value="5">5</option>
+                  </select> years<br />
+   Skill Level: <%=select "skill", "id", SkillLevel.find(:all).collect { |s| [s.name,s.id] } %><br />
+   Has Resume? <input type="checkbox" name="resume" value="1"/><br />
+   Has Picture? <input type="checkbox" name="picture" value="1"/><br />
+   <input type="submit" value="Engineer Query"/>
+</form>
+</fieldset>
+</div>
+<div id="project_search" style="margin-top:50px;margin-bottom: 10px;background-color:#3366FF;padding-bottom:10px">
+<fieldset>
+<legend><span class="fieldsetLabel ">Project Search</span></legend>
+<form style="display:block;border-left-style:thin" action="/projects/search">
+   <input id="query" type="text" name="query" value="Enter keywords..." />
+   <input type="submit" value="Project Query"/>
+</form>
+</fieldset>
+</div>

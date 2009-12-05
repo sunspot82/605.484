@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  fname: fname1
+  lname: fname2
+  engineer: 0
+
+two:
+  fname: fname2
+  lname: lname2
+  engineer: 0

@@ -1,0 +1,52 @@
+<p>
+   <fieldset>
+   <legend>Photo</legend>
+      <%= render :partial => 'show_picture', :object => @picture %>
+   </fieldset>
+</p>
+<% form_for(@engineer) do |f| %>
+  <%= f.error_messages %>  
+  <p>
+     <%= f.label 'Tag List (Delimiter = ,)' %><br />
+     <%= f.text_field :tag_list %>
+  </p>
+  <p>
+  <%= f.label :name, "Name:"%>
+  <ul>
+  <% fields_for @engineer.name do |n| %>  
+     <p>
+        <li><%=n.label :fname, "First:" %> <%= n.text_field :fname %></li>
+     </p>
+     <p>
+        <li><%=n.label :lname, "Last:"%> <%= n.text_field :lname %></li>
+     </p>
+  <% end %>
+  </ul>
+  </p>
+  <p>
+    <%= f.label :years_of_experience %><br />
+    <%= f.text_field :years_of_experience %>
+  </p>
+  <p>
+    <%= f.label :skill_level_id %><br />
+    <%= f.select :skill_level_id, SkillLevel.find(:all).collect { |s| [s.name,s.id] } %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+  <p>
+    <fieldset>
+    <legend>Resume</legend>
+      <%= render :partial => 'show_resume', :object => @resume %>
+    </fieldset>
+  </p>
+  <p>
+     <%= link_to "Edit Assignments", project_assignments_path(:engineer_id => @engineer) %>
+  </p>
+  <p> 
+      <%= link_to "Edit Resources", resources_path(:engineer_id => @engineer) %>
+  </p>    
+<% end %>
+
+<%= link_to 'Show', @engineer %> |
+<%= link_to 'Back', engineers_path %>

@@ -35183,3 +35183,381 @@ Rendering project_assignments/index
   [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "engineers" WHERE ("engineers"."id" = 2) [0m
   [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 2) [0m
 Completed in 126ms (View: 103, DB: 6) | 200 OK [http://localhost/project_assignments]
+
+
+Processing EngineersController#index (for 127.0.0.1 at 2009-11-28 14:13:27) [GET]
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: tags: SELECT tags.id, tags.name, COUNT(*) AS count FROM "tags" INNER JOIN taggings ON tags.id = taggings.tag_id INNER JOIN engineers ON engineers.id = taggings.taggable_id WHERE (taggings.taggable_type = 'Engineer') GROUP BY tags.id, tags.name HAVING COUNT(*) > 0[0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: tags: SELECT tags.id, tags.name, COUNT(*) AS count FROM "tags"  INNER JOIN taggings ON tags.id = taggings.tag_id INNER JOIN engineers ON engineers.id = taggings.taggable_id WHERE (taggings.taggable_type = 'Engineer')  GROUP BY tags.id, tags.name HAVING COUNT(*) > 0):
+  app/controllers/engineers_controller.rb:112:in `get_tags'
+  D:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  D:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (75.0ms)
+Rendered rescues/_request_and_response (3.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EngineersController#index (for 127.0.0.1 at 2009-11-28 14:14:15) [GET]
+  [4;35;1mTag Load (0.0ms)[0m   [0mSQLite3::SQLException: no such table: tags: SELECT tags.id, tags.name, COUNT(*) AS count FROM "tags" INNER JOIN taggings ON tags.id = taggings.tag_id INNER JOIN engineers ON engineers.id = taggings.taggable_id WHERE (taggings.taggable_type = 'Engineer') GROUP BY tags.id, tags.name HAVING COUNT(*) > 0[0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: tags: SELECT tags.id, tags.name, COUNT(*) AS count FROM "tags"  INNER JOIN taggings ON tags.id = taggings.tag_id INNER JOIN engineers ON engineers.id = taggings.taggable_id WHERE (taggings.taggable_type = 'Engineer')  GROUP BY tags.id, tags.name HAVING COUNT(*) > 0):
+  app/controllers/engineers_controller.rb:112:in `get_tags'
+  D:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  D:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (160.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing EngineersController#index (for 127.0.0.1 at 2009-11-28 14:14:33) [GET]
+  [4;36;1mTag Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: tags: SELECT tags.id, tags.name, COUNT(*) AS count FROM "tags" INNER JOIN taggings ON tags.id = taggings.tag_id INNER JOIN engineers ON engineers.id = taggings.taggable_id WHERE (taggings.taggable_type = 'Engineer') GROUP BY tags.id, tags.name HAVING COUNT(*) > 0[0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: tags: SELECT tags.id, tags.name, COUNT(*) AS count FROM "tags"  INNER JOIN taggings ON tags.id = taggings.tag_id INNER JOIN engineers ON engineers.id = taggings.taggable_id WHERE (taggings.taggable_type = 'Engineer')  GROUP BY tags.id, tags.name HAVING COUNT(*) > 0):
+  app/controllers/engineers_controller.rb:112:in `get_tags'
+  D:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  D:/Ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  D:/Ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (75.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (120.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (58.0ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateSkillLevels (20091031133008)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "skill_levels" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091031133008')[0m
+Migrating to CreateProjects (20091031133128)
+  [4;36;1mSQL (2.0ms)[0m   [0;1mCREATE TABLE "projects" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "organization_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091031133128')[0m
+Migrating to CreateProjectScopes (20091031133216)
+  [4;36;1mSQL (2.0ms)[0m   [0;1mCREATE TABLE "project_scopes" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091031133216')[0m
+Migrating to CreateOrganizations (20091031133450)
+  [4;36;1mSQL (2.0ms)[0m   [0;1mCREATE TABLE "organizations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091031133450')[0m
+Migrating to CreateProjectAssignments (20091031133655)
+  [4;36;1mSQL (2.0ms)[0m   [0;1mCREATE TABLE "project_assignments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "start_date" date, "end_date" date, "project_scope_id" integer, "engineer_id" integer, "project_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091031133655')[0m
+Migrating to CreateEngineers (20091031140434)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "engineers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "years_of_experience" integer, "skill_level_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091031140434')[0m
+Migrating to CreateResources (20091101180350)
+  [4;36;1mSQL (4.0ms)[0m   [0;1mCREATE TABLE "resources" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "engineer_id" integer, "role" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091101180350')[0m
+Migrating to AddAttachmentsFToResource (20091101180553)
+  [4;36;1mSQL (4.0ms)[0m   [0;1mALTER TABLE "resources" ADD "f_file_name" varchar(255)[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mALTER TABLE "resources" ADD "f_content_type" varchar(255)[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mALTER TABLE "resources" ADD "f_file_size" integer[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mALTER TABLE "resources" ADD "f_updated_at" datetime[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091101180553')[0m
+Migrating to ActsAsTaggableMigration (20091102221818)
+  [4;35;1mSQL (3.0ms)[0m   [0mCREATE TABLE "tags" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255)) [0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "taggings" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "tag_id" integer, "taggable_id" integer, "taggable_type" varchar(255), "created_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE INDEX "index_taggings_on_tag_id" ON "taggings" ("tag_id")[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE INDEX "index_taggings_on_taggable_id_and_taggable_type" ON "taggings" ("taggable_id", "taggable_type")[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091102221818')[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("engineers")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("organizations")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("project_assignments")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("project_scopes")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("projects")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("resources")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("skill_levels")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("taggings")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_info('index_taggings_on_taggable_id_and_taggable_type')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_info('index_taggings_on_tag_id')[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mPRAGMA index_list("tags")[0m
+  [4;36;1mSkillLevel Load (0.0ms)[0m   [0;1mSELECT "skill_levels".id FROM "skill_levels" WHERE ("skill_levels"."name" = 'No Experience') LIMIT 1[0m
+  [4;35;1mSkillLevel Create (1.0ms)[0m   [0mINSERT INTO "skill_levels" ("name", "updated_at", "description", "created_at") VALUES('No Experience', '2009-11-28 19:15:19', 'Has no prior experience.', '2009-11-28 19:15:19')[0m
+  [4;36;1mSkillLevel Load (1.0ms)[0m   [0;1mSELECT "skill_levels".id FROM "skill_levels" WHERE ("skill_levels"."name" = 'Novice') LIMIT 1[0m
+  [4;35;1mSkillLevel Create (4.0ms)[0m   [0mINSERT INTO "skill_levels" ("name", "updated_at", "description", "created_at") VALUES('Novice', '2009-11-28 19:15:19', 'Has some prior experience or only class room training.', '2009-11-28 19:15:19')[0m
+  [4;36;1mSkillLevel Load (0.0ms)[0m   [0;1mSELECT "skill_levels".id FROM "skill_levels" WHERE ("skill_levels"."name" = 'Experienced') LIMIT 1[0m
+  [4;35;1mSkillLevel Create (2.0ms)[0m   [0mINSERT INTO "skill_levels" ("name", "updated_at", "description", "created_at") VALUES('Experienced', '2009-11-28 19:15:19', 'Has lots of on the job experience.', '2009-11-28 19:15:19')[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'Larry Davenport') LIMIT 1[0m
+  [4;35;1mSkillLevel Load (0.0ms)[0m   [0mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 3) [0m
+  [4;36;1mEngineer Create (1.0ms)[0m   [0;1mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('Larry Davenport', '2009-11-28 19:15:20', 3, 4, '2009-11-28 19:15:20')[0m
+  [4;35;1mEngineer Load (1.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'Brian Michaels') LIMIT 1[0m
+  [4;36;1mSkillLevel Load (0.0ms)[0m   [0;1mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 3) [0m
+  [4;35;1mEngineer Create (1.0ms)[0m   [0mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('Brian Michaels', '2009-11-28 19:15:20', 3, 6, '2009-11-28 19:15:20')[0m
+  [4;36;1mEngineer Load (1.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'Victor Rodgers') LIMIT 1[0m
+  [4;35;1mSkillLevel Load (1.0ms)[0m   [0mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 3) [0m
+  [4;36;1mEngineer Create (1.0ms)[0m   [0;1mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('Victor Rodgers', '2009-11-28 19:15:20', 3, 6, '2009-11-28 19:15:20')[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'Pete Kibler') LIMIT 1[0m
+  [4;36;1mSkillLevel Load (1.0ms)[0m   [0;1mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 2) [0m
+  [4;35;1mEngineer Create (1.0ms)[0m   [0mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('Pete Kibler', '2009-11-28 19:15:20', 2, 4, '2009-11-28 19:15:20')[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'Sam Johnson') LIMIT 1[0m
+  [4;35;1mSkillLevel Load (1.0ms)[0m   [0mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 1) [0m
+  [4;36;1mEngineer Create (2.0ms)[0m   [0;1mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('Sam Johnson', '2009-11-28 19:15:20', 1, 4, '2009-11-28 19:15:20')[0m
+  [4;35;1mEngineer Load (1.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'Justin Jacobs') LIMIT 1[0m
+  [4;36;1mSkillLevel Load (0.0ms)[0m   [0;1mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 1) [0m
+  [4;35;1mEngineer Create (1.0ms)[0m   [0mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('Justin Jacobs', '2009-11-28 19:15:20', 1, 1, '2009-11-28 19:15:20')[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'Eric Jackson') LIMIT 1[0m
+  [4;35;1mSkillLevel Load (0.0ms)[0m   [0mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 2) [0m
+  [4;36;1mEngineer Create (1.0ms)[0m   [0;1mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('Eric Jackson', '2009-11-28 19:15:20', 2, 0, '2009-11-28 19:15:20')[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'Tim Smith') LIMIT 1[0m
+  [4;36;1mSkillLevel Load (0.0ms)[0m   [0;1mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 1) [0m
+  [4;35;1mEngineer Create (1.0ms)[0m   [0mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('Tim Smith', '2009-11-28 19:15:20', 1, 5, '2009-11-28 19:15:20')[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'Jesse Davenport') LIMIT 1[0m
+  [4;35;1mSkillLevel Load (1.0ms)[0m   [0mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 3) [0m
+  [4;36;1mEngineer Create (2.0ms)[0m   [0;1mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('Jesse Davenport', '2009-11-28 19:15:20', 3, 4, '2009-11-28 19:15:20')[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'Paul Michaels') LIMIT 1[0m
+  [4;36;1mSkillLevel Load (1.0ms)[0m   [0;1mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 2) [0m
+  [4;35;1mEngineer Create (2.0ms)[0m   [0mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('Paul Michaels', '2009-11-28 19:15:20', 2, 9, '2009-11-28 19:15:20')[0m
+  [4;36;1mEngineer Load (1.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'Bill Rodgers') LIMIT 1[0m
+  [4;35;1mSkillLevel Load (1.0ms)[0m   [0mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 1) [0m
+  [4;36;1mEngineer Create (1.0ms)[0m   [0;1mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('Bill Rodgers', '2009-11-28 19:15:21', 1, 6, '2009-11-28 19:15:21')[0m
+  [4;35;1mEngineer Load (1.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'William Kibler') LIMIT 1[0m
+  [4;36;1mSkillLevel Load (0.0ms)[0m   [0;1mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 3) [0m
+  [4;35;1mEngineer Create (2.0ms)[0m   [0mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('William Kibler', '2009-11-28 19:15:21', 3, 1, '2009-11-28 19:15:21')[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'Terry Johnson') LIMIT 1[0m
+  [4;35;1mSkillLevel Load (0.0ms)[0m   [0mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 1) [0m
+  [4;36;1mEngineer Create (1.0ms)[0m   [0;1mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('Terry Johnson', '2009-11-28 19:15:21', 1, 9, '2009-11-28 19:15:21')[0m
+  [4;35;1mEngineer Load (1.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'Cindy Jacobs') LIMIT 1[0m
+  [4;36;1mSkillLevel Load (0.0ms)[0m   [0;1mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 3) [0m
+  [4;35;1mEngineer Create (0.0ms)[0m   [0mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('Cindy Jacobs', '2009-11-28 19:15:21', 3, 9, '2009-11-28 19:15:21')[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'Sally Jackson') LIMIT 1[0m
+  [4;35;1mSkillLevel Load (0.0ms)[0m   [0mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 1) [0m
+  [4;36;1mEngineer Create (2.0ms)[0m   [0;1mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('Sally Jackson', '2009-11-28 19:15:21', 1, 7, '2009-11-28 19:15:21')[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'Tina Smith') LIMIT 1[0m
+  [4;36;1mSkillLevel Load (0.0ms)[0m   [0;1mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 1) [0m
+  [4;35;1mEngineer Create (0.0ms)[0m   [0mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('Tina Smith', '2009-11-28 19:15:21', 1, 5, '2009-11-28 19:15:21')[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'Tiffany Davenport') LIMIT 1[0m
+  [4;35;1mSkillLevel Load (0.0ms)[0m   [0mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 1) [0m
+  [4;36;1mEngineer Create (2.0ms)[0m   [0;1mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('Tiffany Davenport', '2009-11-28 19:15:21', 1, 6, '2009-11-28 19:15:21')[0m
+  [4;35;1mEngineer Load (1.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'Tonya Michaels') LIMIT 1[0m
+  [4;36;1mSkillLevel Load (1.0ms)[0m   [0;1mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 2) [0m
+  [4;35;1mEngineer Create (1.0ms)[0m   [0mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('Tonya Michaels', '2009-11-28 19:15:21', 2, 2, '2009-11-28 19:15:21')[0m
+  [4;36;1mEngineer Load (2.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'Dave Rodgers') LIMIT 1[0m
+  [4;35;1mSkillLevel Load (1.0ms)[0m   [0mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 1) [0m
+  [4;36;1mEngineer Create (1.0ms)[0m   [0;1mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('Dave Rodgers', '2009-11-28 19:15:21', 1, 0, '2009-11-28 19:15:21')[0m
+  [4;35;1mEngineer Load (2.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE ("engineers"."name" = 'Larry Kibler') LIMIT 1[0m
+  [4;36;1mSkillLevel Load (0.0ms)[0m   [0;1mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 3) [0m
+  [4;35;1mEngineer Create (2.0ms)[0m   [0mINSERT INTO "engineers" ("name", "updated_at", "skill_level_id", "years_of_experience", "created_at") VALUES('Larry Kibler', '2009-11-28 19:15:22', 3, 4, '2009-11-28 19:15:22')[0m
+  [4;36;1mOrganization Load (0.0ms)[0m   [0;1mSELECT "organizations".id FROM "organizations" WHERE ("organizations"."name" = 'Verizon') LIMIT 1[0m
+  [4;35;1mOrganization Create (1.0ms)[0m   [0mINSERT INTO "organizations" ("name", "updated_at", "description", "created_at") VALUES('Verizon', '2009-11-28 19:15:22', NULL, '2009-11-28 19:15:22')[0m
+  [4;36;1mOrganization Load (0.0ms)[0m   [0;1mSELECT "organizations".id FROM "organizations" WHERE ("organizations"."name" = 'Comcast') LIMIT 1[0m
+  [4;35;1mOrganization Create (1.0ms)[0m   [0mINSERT INTO "organizations" ("name", "updated_at", "description", "created_at") VALUES('Comcast', '2009-11-28 19:15:22', NULL, '2009-11-28 19:15:22')[0m
+  [4;36;1mOrganization Load (1.0ms)[0m   [0;1mSELECT "organizations".id FROM "organizations" WHERE ("organizations"."name" = 'Google') LIMIT 1[0m
+  [4;35;1mOrganization Create (2.0ms)[0m   [0mINSERT INTO "organizations" ("name", "updated_at", "description", "created_at") VALUES('Google', '2009-11-28 19:15:22', NULL, '2009-11-28 19:15:22')[0m
+  [4;36;1mOrganization Load (1.0ms)[0m   [0;1mSELECT "organizations".id FROM "organizations" WHERE ("organizations"."name" = 'Apple') LIMIT 1[0m
+  [4;35;1mOrganization Create (2.0ms)[0m   [0mINSERT INTO "organizations" ("name", "updated_at", "description", "created_at") VALUES('Apple', '2009-11-28 19:15:22', NULL, '2009-11-28 19:15:22')[0m
+  [4;36;1mProject Load (0.0ms)[0m   [0;1mSELECT "projects".id FROM "projects" WHERE ("projects"."name" = 'Hide-N-Seek') LIMIT 1[0m
+  [4;35;1mOrganization Load (0.0ms)[0m   [0mSELECT * FROM "organizations" WHERE ("organizations"."id" = 2) [0m
+  [4;36;1mProject Create (1.0ms)[0m   [0;1mINSERT INTO "projects" ("name", "updated_at", "description", "organization_id", "created_at") VALUES('Hide-N-Seek', '2009-11-28 19:15:22', NULL, 2, '2009-11-28 19:15:22')[0m
+  [4;35;1mProject Load (0.0ms)[0m   [0mSELECT "projects".id FROM "projects" WHERE ("projects"."name" = 'Future Endevours') LIMIT 1[0m
+  [4;36;1mOrganization Load (0.0ms)[0m   [0;1mSELECT * FROM "organizations" WHERE ("organizations"."id" = 1) [0m
+  [4;35;1mProject Create (2.0ms)[0m   [0mINSERT INTO "projects" ("name", "updated_at", "description", "organization_id", "created_at") VALUES('Future Endevours', '2009-11-28 19:15:22', NULL, 1, '2009-11-28 19:15:22')[0m
+  [4;36;1mProjectScope Load (0.0ms)[0m   [0;1mSELECT "project_scopes".id FROM "project_scopes" WHERE ("project_scopes"."name" = 'Maintenance') LIMIT 1[0m
+  [4;35;1mProjectScope Create (1.0ms)[0m   [0mINSERT INTO "project_scopes" ("name", "updated_at", "description", "created_at") VALUES('Maintenance', '2009-11-28 19:15:22', NULL, '2009-11-28 19:15:22')[0m
+  [4;36;1mProjectScope Load (2.0ms)[0m   [0;1mSELECT "project_scopes".id FROM "project_scopes" WHERE ("project_scopes"."name" = 'Integration') LIMIT 1[0m
+  [4;35;1mProjectScope Create (2.0ms)[0m   [0mINSERT INTO "project_scopes" ("name", "updated_at", "description", "created_at") VALUES('Integration', '2009-11-28 19:15:22', NULL, '2009-11-28 19:15:22')[0m
+  [4;36;1mProjectScope Load (0.0ms)[0m   [0;1mSELECT "project_scopes".id FROM "project_scopes" WHERE ("project_scopes"."name" = 'Testing') LIMIT 1[0m
+  [4;35;1mProjectScope Create (2.0ms)[0m   [0mINSERT INTO "project_scopes" ("name", "updated_at", "description", "created_at") VALUES('Testing', '2009-11-28 19:15:23', NULL, '2009-11-28 19:15:23')[0m
+  [4;36;1mProjectScope Load (1.0ms)[0m   [0;1mSELECT "project_scopes".id FROM "project_scopes" WHERE ("project_scopes"."name" = 'Development') LIMIT 1[0m
+  [4;35;1mProjectScope Create (2.0ms)[0m   [0mINSERT INTO "project_scopes" ("name", "updated_at", "description", "created_at") VALUES('Development', '2009-11-28 19:15:23', NULL, '2009-11-28 19:15:23')[0m
+  [4;36;1mProjectScope Load (0.0ms)[0m   [0;1mSELECT "project_scopes".id FROM "project_scopes" WHERE ("project_scopes"."name" = 'Requirements') LIMIT 1[0m
+  [4;35;1mProjectScope Create (2.0ms)[0m   [0mINSERT INTO "project_scopes" ("name", "updated_at", "description", "created_at") VALUES('Requirements', '2009-11-28 19:15:23', NULL, '2009-11-28 19:15:23')[0m
+  [4;36;1mProject Load (1.0ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 2) [0m
+  [4;35;1mProjectScope Load (0.0ms)[0m   [0mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 1) [0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT * FROM "engineers" WHERE ("engineers"."id" = 1) [0m
+  [4;35;1mProjectAssignment Create (1.0ms)[0m   [0mINSERT INTO "project_assignments" ("start_date", "end_date", "project_id", "updated_at", "engineer_id", "project_scope_id", "created_at") VALUES('2009-11-28', '2009-11-28', 2, '2009-11-28 19:15:23', 1, 1, '2009-11-28 19:15:23')[0m
+  [4;36;1mProject Load (0.0ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 2) [0m
+  [4;35;1mProjectScope Load (0.0ms)[0m   [0mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 2) [0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT * FROM "engineers" WHERE ("engineers"."id" = 2) [0m
+  [4;35;1mProjectAssignment Create (1.0ms)[0m   [0mINSERT INTO "project_assignments" ("start_date", "end_date", "project_id", "updated_at", "engineer_id", "project_scope_id", "created_at") VALUES('2009-11-28', '2009-11-28', 2, '2009-11-28 19:15:23', 2, 2, '2009-11-28 19:15:23')[0m
+  [4;36;1mProject Load (0.0ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 1) [0m
+  [4;35;1mProjectScope Load (0.0ms)[0m   [0mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 1) [0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT * FROM "engineers" WHERE ("engineers"."id" = 2) [0m
+  [4;35;1mProjectAssignment Create (1.0ms)[0m   [0mINSERT INTO "project_assignments" ("start_date", "end_date", "project_id", "updated_at", "engineer_id", "project_scope_id", "created_at") VALUES('2009-11-28', '2009-11-28', 1, '2009-11-28 19:15:23', 2, 1, '2009-11-28 19:15:23')[0m
+
+
+Processing EngineersController#index (for 127.0.0.1 at 2009-11-28 14:15:41) [GET]
+  [4;36;1mTag Load (1.0ms)[0m   [0;1mSELECT tags.id, tags.name, COUNT(*) AS count FROM "tags" INNER JOIN taggings ON tags.id = taggings.tag_id INNER JOIN engineers ON engineers.id = taggings.taggable_id WHERE (taggings.taggable_type = 'Engineer') GROUP BY tags.id, tags.name HAVING COUNT(*) > 0[0m
+  [4;35;1mEngineer Load (1.0ms)[0m   [0mSELECT * FROM "engineers" ORDER BY name LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "engineers" [0m
+Rendering template within layouts/engineers
+Rendering engineers/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT tags.id, tags.name, COUNT(*) AS count FROM "tags" INNER JOIN taggings ON tags.id = taggings.tag_id INNER JOIN engineers ON engineers.id = taggings.taggable_id WHERE (taggings.taggable_type = 'Engineer') GROUP BY tags.id, tags.name HAVING COUNT(*) > 0[0m
+Rendered engineers/_tagcloud (16.0ms)
+Completed in 8474ms (View: 8413, DB: 2) | 200 OK [http://localhost/]
+
+
+Processing EngineersController#index (for 127.0.0.1 at 2009-11-28 14:16:04) [GET]
+  Parameters: {"page"=>"2"}
+  [4;36;1mTag Load (1.0ms)[0m   [0;1mSELECT tags.id, tags.name, COUNT(*) AS count FROM "tags" INNER JOIN taggings ON tags.id = taggings.tag_id INNER JOIN engineers ON engineers.id = taggings.taggable_id WHERE (taggings.taggable_type = 'Engineer') GROUP BY tags.id, tags.name HAVING COUNT(*) > 0[0m
+  [4;35;1mEngineer Load (1.0ms)[0m   [0mSELECT * FROM "engineers" ORDER BY name LIMIT 5 OFFSET 5[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "engineers" [0m
+Rendering template within layouts/engineers
+Rendering engineers/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT tags.id, tags.name, COUNT(*) AS count FROM "tags" INNER JOIN taggings ON tags.id = taggings.tag_id INNER JOIN engineers ON engineers.id = taggings.taggable_id WHERE (taggings.taggable_type = 'Engineer') GROUP BY tags.id, tags.name HAVING COUNT(*) > 0[0m
+Rendered engineers/_tagcloud (2.0ms)
+Completed in 91ms (View: 62, DB: 2) | 200 OK [http://localhost/engineers?page=2]
+
+
+Processing ProjectAssignmentsController#index (for 127.0.0.1 at 2009-11-28 14:16:06) [GET]
+  [4;36;1mProjectAssignment Load (2.0ms)[0m   [0;1mSELECT * FROM "project_assignments" ORDER BY project_id LIMIT 5 OFFSET 0[0m
+Rendering template within layouts/project_assignments
+Rendering project_assignments/index
+  [4;35;1mProjectScope Load (2.0ms)[0m   [0mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 1) [0m
+  [4;36;1mEngineer Load (1.0ms)[0m   [0;1mSELECT * FROM "engineers" WHERE ("engineers"."id" = 2) [0m
+  [4;35;1mProject Load (1.0ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 1) [0m
+  [4;35;1mEngineer Load (2.0ms)[0m   [0mSELECT * FROM "engineers" WHERE ("engineers"."id" = 1) [0m
+  [4;36;1mProject Load (2.0ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 2) [0m
+  [4;35;1mProjectScope Load (0.0ms)[0m   [0mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 2) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "engineers" WHERE ("engineers"."id" = 2) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 2) [0m
+Completed in 388ms (View: 244, DB: 10) | 200 OK [http://localhost/project_assignments]
+
+
+Processing ProjectAssignmentsController#show (for 127.0.0.1 at 2009-11-28 14:16:10) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mProjectAssignment Load (1.0ms)[0m   [0;1mSELECT * FROM "project_assignments" WHERE ("project_assignments"."id" = 3) [0m
+Rendering template within layouts/project_assignments
+Rendering project_assignments/show
+  [4;35;1mProject Load (2.0ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 1) [0m
+  [4;36;1mProjectScope Load (1.0ms)[0m   [0;1mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 1) [0m
+  [4;35;1mEngineer Load (1.0ms)[0m   [0mSELECT * FROM "engineers" WHERE ("engineers"."id" = 2) [0m
+Completed in 95ms (View: 74, DB: 5) | 200 OK [http://localhost/project_assignments/3]
+
+
+Processing ProjectAssignmentsController#index (for 127.0.0.1 at 2009-11-28 14:16:11) [GET]
+  [4;36;1mProjectAssignment Load (4.0ms)[0m   [0;1mSELECT * FROM "project_assignments" ORDER BY project_id LIMIT 5 OFFSET 0[0m
+Rendering template within layouts/project_assignments
+Rendering project_assignments/index
+  [4;35;1mProjectScope Load (3.0ms)[0m   [0mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 1) [0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT * FROM "engineers" WHERE ("engineers"."id" = 2) [0m
+  [4;35;1mProject Load (1.0ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 1) [0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT * FROM "engineers" WHERE ("engineers"."id" = 1) [0m
+  [4;36;1mProject Load (1.0ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 2) [0m
+  [4;35;1mProjectScope Load (4.0ms)[0m   [0mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 2) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "engineers" WHERE ("engineers"."id" = 2) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 2) [0m
+Completed in 153ms (View: 124, DB: 13) | 200 OK [http://localhost/project_assignments]
+
+
+Processing ProjectAssignmentsController#edit (for 127.0.0.1 at 2009-11-28 14:16:13) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mProjectAssignment Load (0.0ms)[0m   [0;1mSELECT * FROM "project_assignments" WHERE ("project_assignments"."id" = 3) [0m
+Rendering template within layouts/project_assignments
+Rendering project_assignments/edit
+  [4;35;1mProjectScope Load (1.0ms)[0m   [0mSELECT * FROM "project_scopes" [0m
+  [4;36;1mProject Load (1.0ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 1) [0m
+  [4;35;1mEngineer Load (1.0ms)[0m   [0mSELECT * FROM "engineers" WHERE ("engineers"."id" = 2) [0m
+Completed in 158ms (View: 132, DB: 3) | 200 OK [http://localhost/project_assignments/3/edit]
+
+
+Processing ProjectAssignmentsController#index (for 127.0.0.1 at 2009-11-28 14:16:24) [GET]
+  [4;36;1mProjectAssignment Load (2.0ms)[0m   [0;1mSELECT * FROM "project_assignments" ORDER BY project_id LIMIT 5 OFFSET 0[0m
+Rendering template within layouts/project_assignments
+Rendering project_assignments/index
+  [4;35;1mProjectScope Load (0.0ms)[0m   [0mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 1) [0m
+  [4;36;1mEngineer Load (1.0ms)[0m   [0;1mSELECT * FROM "engineers" WHERE ("engineers"."id" = 2) [0m
+  [4;35;1mProject Load (1.0ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 1) [0m
+  [4;35;1mEngineer Load (1.0ms)[0m   [0mSELECT * FROM "engineers" WHERE ("engineers"."id" = 1) [0m
+  [4;36;1mProject Load (0.0ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 2) [0m
+  [4;35;1mProjectScope Load (0.0ms)[0m   [0mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 2) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "engineers" WHERE ("engineers"."id" = 2) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 2) [0m
+Completed in 99ms (View: 78, DB: 5) | 200 OK [http://localhost/project_assignments]
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2009-11-28 14:16:26) [GET]
+  [4;36;1mResource Load (2.0ms)[0m   [0;1mSELECT * FROM "resources" ORDER BY engineer_id LIMIT 5 OFFSET 0[0m
+Rendering template within layouts/resources
+Rendering resources/index
+Completed in 220ms (View: 46, DB: 2) | 200 OK [http://localhost/resources]
+
+
+Processing EngineersController#index (for 127.0.0.1 at 2009-11-28 14:16:29) [GET]
+  [4;35;1mTag Load (1.0ms)[0m   [0mSELECT tags.id, tags.name, COUNT(*) AS count FROM "tags" INNER JOIN taggings ON tags.id = taggings.tag_id INNER JOIN engineers ON engineers.id = taggings.taggable_id WHERE (taggings.taggable_type = 'Engineer') GROUP BY tags.id, tags.name HAVING COUNT(*) > 0[0m
+  [4;36;1mEngineer Load (2.0ms)[0m   [0;1mSELECT * FROM "engineers" ORDER BY name LIMIT 5 OFFSET 0[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "engineers" [0m
+Rendering template within layouts/engineers
+Rendering engineers/index
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT tags.id, tags.name, COUNT(*) AS count FROM "tags" INNER JOIN taggings ON tags.id = taggings.tag_id INNER JOIN engineers ON engineers.id = taggings.taggable_id WHERE (taggings.taggable_type = 'Engineer') GROUP BY tags.id, tags.name HAVING COUNT(*) > 0[0m
+Rendered engineers/_tagcloud (2.0ms)
+Completed in 182ms (View: 51, DB: 3) | 200 OK [http://localhost/engineers]
+
+
+Processing ProjectAssignmentsController#index (for 127.0.0.1 at 2009-11-28 14:16:31) [GET]
+  [4;35;1mProjectAssignment Load (2.0ms)[0m   [0mSELECT * FROM "project_assignments" ORDER BY project_id LIMIT 5 OFFSET 0[0m
+Rendering template within layouts/project_assignments
+Rendering project_assignments/index
+  [4;36;1mProjectScope Load (1.0ms)[0m   [0;1mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 1) [0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT * FROM "engineers" WHERE ("engineers"."id" = 2) [0m
+  [4;36;1mProject Load (0.0ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 1) [0m
+  [4;36;1mEngineer Load (1.0ms)[0m   [0;1mSELECT * FROM "engineers" WHERE ("engineers"."id" = 1) [0m
+  [4;35;1mProject Load (1.0ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 2) [0m
+  [4;36;1mProjectScope Load (1.0ms)[0m   [0;1mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 2) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "engineers" WHERE ("engineers"."id" = 2) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 2) [0m
+Completed in 98ms (View: 80, DB: 6) | 200 OK [http://localhost/project_assignments]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-11-28 14:16:33) [GET]
+  [4;35;1mTag Load (1.0ms)[0m   [0mSELECT tags.id, tags.name, COUNT(*) AS count FROM "tags" INNER JOIN taggings ON tags.id = taggings.tag_id INNER JOIN engineers ON engineers.id = taggings.taggable_id WHERE (taggings.taggable_type = 'Engineer') GROUP BY tags.id, tags.name HAVING COUNT(*) > 0[0m
+  [4;36;1mProject Load (1.0ms)[0m   [0;1mSELECT * FROM "projects" ORDER BY name LIMIT 5 OFFSET 0[0m
+Rendering template within layouts/projects
+Rendering projects/index
+  [4;35;1mTag Load (0.0ms)[0m   [0mSELECT tags.id, tags.name, COUNT(*) AS count FROM "tags" INNER JOIN taggings ON tags.id = taggings.tag_id INNER JOIN projects ON projects.id = taggings.taggable_id WHERE (taggings.taggable_type = 'Project') GROUP BY tags.id, tags.name HAVING COUNT(*) > 0[0m
+Rendered projects/_tagcloud (7.0ms)
+Completed in 116ms (View: 78, DB: 2) | 200 OK [http://localhost/projects]
+
+
+Processing EngineersController#index (for 127.0.0.1 at 2009-11-28 14:16:38) [GET]
+  [4;36;1mTag Load (1.0ms)[0m   [0;1mSELECT tags.id, tags.name, COUNT(*) AS count FROM "tags" INNER JOIN taggings ON tags.id = taggings.tag_id INNER JOIN engineers ON engineers.id = taggings.taggable_id WHERE (taggings.taggable_type = 'Engineer') GROUP BY tags.id, tags.name HAVING COUNT(*) > 0[0m
+  [4;35;1mEngineer Load (2.0ms)[0m   [0mSELECT * FROM "engineers" ORDER BY name LIMIT 5 OFFSET 0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "engineers" [0m
+Rendering template within layouts/engineers
+Rendering engineers/index
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT tags.id, tags.name, COUNT(*) AS count FROM "tags" INNER JOIN taggings ON tags.id = taggings.tag_id INNER JOIN engineers ON engineers.id = taggings.taggable_id WHERE (taggings.taggable_type = 'Engineer') GROUP BY tags.id, tags.name HAVING COUNT(*) > 0[0m
+Rendered engineers/_tagcloud (1.0ms)
+Completed in 78ms (View: 48, DB: 3) | 200 OK [http://localhost/engineers]

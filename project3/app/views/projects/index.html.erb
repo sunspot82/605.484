@@ -1,0 +1,22 @@
+<table cellspacing="0px" cellpadding="10px">
+  <tr bgcolor="#99CC33">
+    <th>Name</th>
+    <th>Description</th>
+    <th>Organization</th>
+  </tr>
+
+<% @projects.each do |project| %>
+  <tr class="<%=cycle('even_row','odd_row')%>">
+    <td align="center"><%=h project.name %></td>
+    <td align="center"><%=h project.description %></td>
+    <td align="left"><%=h project.organization.name %></td>
+    <td><%= link_to 'Show', project %></td>
+    <td><%= link_to 'Edit', edit_project_path(project) %></td>
+    <td><%= link_to 'Destroy', project, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+<%=will_paginate @projects %>
+<br />
+
+<%= link_to 'New project', new_project_path %>

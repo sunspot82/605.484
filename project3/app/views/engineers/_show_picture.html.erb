@@ -1,0 +1,5 @@
+<% if @picture %>
+        <a href="<%=@picture.attachment.url%>"><img src="<%=@picture.attachment.url(:small) %>"/></a>
+     <% else %>
+        No Picture.
+<% end %>

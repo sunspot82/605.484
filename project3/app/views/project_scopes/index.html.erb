@@ -1,0 +1,22 @@
+<h1>Listing project_scopes</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+
+<% @project_scopes.each do |project_scope| %>
+  <tr>
+    <td><%=h project_scope.name %></td>
+    <td><%=h project_scope.description %></td>
+    <td><%= link_to 'Show', project_scope %></td>
+    <td><%= link_to 'Edit', edit_project_scope_path(project_scope) %></td>
+    <td><%= link_to 'Destroy', project_scope, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New project_scope', new_project_scope_path %>

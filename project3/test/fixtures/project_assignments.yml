@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  start_date: 2009-10-31
+  end_date: 2009-10-31
+  project_scope_id: 1
+  engineer_id: 1
+  project_id: 1
+
+two:
+  start_date: 2009-10-31
+  end_date: 2009-10-31
+  project_scope_id: 1
+  engineer_id: 1
+  project_id: 1

@@ -1,0 +1,11 @@
+<textarea rows="10" cols="80" readonly="readonly">
+     <% if @resume %>
+         <% File.open(@resume.attachment.path,'r') do |aFile| %>
+            <% aFile.readlines.each do |line| %>                              
+               <%= line%>
+            <% end %>
+         <% end %>
+     <% else %>
+        No Resume.
+     <% end %>
+</textarea>

@@ -1,0 +1,34 @@
+<p>
+   <fieldset>
+   <legend>Photo</legend>
+      <%= render :partial => 'show_picture', :object => @picture %>
+   </fieldset>
+</p>
+<p>
+   <b>Name:</b>
+   <%=h @engineer.name.fname + " " + @engineer.name.lname %>
+<p>
+<p>
+  <b>Years of experience:</b>
+  <%=h @engineer.years_of_experience %>
+</p>
+
+<p>
+  <b>Skill level:</b>
+  <%=h @engineer.skill_level.name %>
+</p>
+<p>
+   <fieldset>
+   <legend>Resume</legend>
+      <%= render :partial => 'show_resume', :object => @resume %>
+   </fieldset>
+</p>
+<p>
+   <%= link_to @engineer.name.to_s + "'s Assignments", project_assignments_path(:engineer_id => @engineer) %>
+</p>
+<p>
+   <%=link_to @engineer.name.to_s + "'s Resources", resources_path(:engineer_id => @engineer) %>
+</p>
+</div>
+<%= link_to 'Edit', edit_engineer_path(@engineer) %> |
+<%= link_to 'Back', engineers_path %>
