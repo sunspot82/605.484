@@ -18,6 +18,12 @@
   <%=h @engineer.skill_level.name %>
 </p>
 <p>
+     <fieldset>
+        <legend>Contact Info</legend>
+        <%= render :partial => 'contact_info', :object => @engineer %>
+     </fieldset>
+</p>
+<p>
    <fieldset>
    <legend>Resume</legend>
       <%= render :partial => 'show_resume', :object => @resume %>

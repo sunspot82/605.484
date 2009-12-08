@@ -1,0 +1,14 @@
+<%= flash[:error] %>
+<ul>
+   <% if @engineer.phone_numbers.empty? %>
+      No phone numbers...
+   <% else %>
+      <% @engineer.phone_numbers.each do |phone_number| %>
+         <li><%= phone_number.to_s %>
+         <% if controller.action_name.casecmp("edit") == 0 %>
+         | <%= link_to_remote 'Delete', :url => {:controller => 'phone_numbers', :action => :destroy, :phone_number_id=>phone_number.id, :engineer_id => @engineer.id}, :update => 'phone_numbers' %>
+         <% end %>
+         </li>
+      <% end %>
+   <% end %>
+</ul>

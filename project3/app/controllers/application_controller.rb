@@ -4,8 +4,13 @@
 class ApplicationController < ActionController::Base
   helper :all # include all helpers, all the time
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
-  
+   
   around_filter :record_not_found
+  
+  auto_complete_for :name, :fname
+  auto_complete_for :name, :lname
+  
+  auto_complete_for :project, :name
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
   # Performs error checking for missing Records.

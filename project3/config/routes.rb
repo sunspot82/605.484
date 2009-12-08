@@ -1,7 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
   map.resources :resources
 
-  map.resources :engineers, :collection => { :search => :get }
+  map.resources :engineers, :collection => { :search => :get}
 
   #map.resources :organizations
 
@@ -11,10 +11,29 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :project_assignments
 
-  map.resources :skill_levels
+  #map.resources :skill_levels
 
-  #map.resources :names
+  #map.resources :names  
+  
+  map.connect 'email_addresses/create',
+                     :conditions => { :method => :post },
+                     :controller => "email_addresses",
+                     :action => "create"
 
+  map.connect 'email_addresses/destroy',
+                     :conditions => { :method => :delete },
+                     :controller => "email_addresses",
+                     :action => "destroy"
+                     
+  map.connect 'phone_numbers/create',
+                     :conditions => { :method => :post },
+                     :controller => "phone_numbers",
+                     :action => "create"
+
+  map.connect 'phone_numbers/destroy',
+                     :conditions => { :method => :delete },
+                     :controller => "phone_numbers",
+                     :action => "destroy"
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

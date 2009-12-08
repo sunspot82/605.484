@@ -15,13 +15,13 @@ class ProjectsController < ApplicationController
   #
   def search
      logger.info("Called Search!")
-     if params[:query].empty?
-        params[:query] = '%'
+     if params[:project][:name].empty?
+        params[:project][:name] = '%'
      else
-        params[:query] = '%' + params[:query] + '%'  
+        params[:project][:name] = '%' + params[:project][:name] + '%'  
      end
-     logger.info("query: '#{params[:query]}'") 
-     @projects = Project.find(:all, :conditions => ["name like ? or description like ?",params[:query],params[:query]] ).paginate :per_page => 5, :page => params[:page], :order => 'name'
+     logger.info("query: '#{params[:project][:name]}'") 
+     @projects = Project.find(:all, :conditions => ["name like ? or description like ?",params[:project][:name],params[:project][:name]] ).paginate :per_page => 5, :page => params[:page], :order => 'name'
      render(:action => 'index',:object => @projects)
   end
    

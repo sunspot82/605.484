@@ -5,6 +5,9 @@ class Engineer < ActiveRecord::Base
   has_many :project_scopes, :through => :project_assignments
   has_many :resources, :dependent => :destroy, :validate => true
   
+  has_many :email_addresses, :dependent => :destroy, :validate => true
+  has_many :phone_numbers, :dependent => :destroy, :validate => true
+  
   validates_presence_of :years_of_experience, :skill_level_id
   validates_numericality_of :years_of_experience, :greater_than_or_equal_to => 0
   

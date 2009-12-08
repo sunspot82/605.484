@@ -1,0 +1,22 @@
+<% if controller.action_name.casecmp("edit") == 0 %>
+   <% remote_form_for :email_address, :url => {:controller => 'email_addresses', :action => 'create', :engineer_id => @engineer.id}, :update => 'email_addresses' do |f|  %>
+      Label: <%= f.text_field :label %>
+      Address: <%= f.text_field :address %><br />
+      <%= hidden_field(:email_address, :engineer_id, :value => @engineer.id) %>
+      <%= f.submit 'Add Email Address' %>
+   <% end %>
+<% end %>
+<div id="email_addresses">
+   <%= render :partial => 'email_address_list', :object => @engineer %>
+</div>
+<% if controller.action_name.casecmp("edit") == 0 %>
+   <% remote_form_for :phone_number, :url => {:controller => 'phone_numbers', :action => 'create', :engineer_id => @engineer.id}, :update => 'phone_numbers' do |f| %>
+      Label: <%= f.text_field :label %>
+      Number (ex. xxx-xxx-xxxx): <%= f.text_field :number %><br />
+      <%= hidden_field(:phone_number, :engineer_id, :value => @engineer.id) %>
+      <%= f.submit "Add Phone Number" %>
+   <% end %>
+<% end %>
+<div id="phone_numbers">
+   <%= render :partial => 'phone_number_list', :object => @engineer %>
+</div>

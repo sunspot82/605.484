@@ -32,7 +32,14 @@
     <%= f.select :skill_level_id, SkillLevel.find(:all).collect { |s| [s.name,s.id] } %>
   </p>
   <p>
-    <%= f.submit 'Update' %>
+    <%= f.submit 'Update' %>    
+  </p>
+  <% end %>  
+  <p>
+     <fieldset>
+        <legend>Contact Info</legend>
+        <%= render :partial => 'contact_info', :object => @engineer %>
+     </fieldset>
   </p>
   <p>
     <fieldset>
@@ -46,7 +53,7 @@
   <p> 
       <%= link_to "Edit Resources", resources_path(:engineer_id => @engineer) %>
   </p>    
-<% end %>
+
 
 <%= link_to 'Show', @engineer %> |
 <%= link_to 'Back', engineers_path %>

@@ -1,21 +1,16 @@
 <div id="engineer_search" style="margin-bottom: 10px;background-color:#FF9933;padding-bottom:10px">
 <fieldset>
 <legend><span class="fieldsetLabel">Engineer Search</span></legend>
-<form style="border-right-style:thin" action="/engineers/search/">
-   FirstName:<input id="fname" type="text" name="fname" /><br />
-   LastName:<input id="lname" type="text" name="lname" /><br />
-   Experience (at least):<select name="years">
-                     <option value="0">0</option>
-                     <option value="1">1</option>
-                     <option value="2">2</option>
-                     <option value="3">3</option>
-                     <option value="4">4</option>
-                     <option value="5">5</option>
-                  </select> years<br />
+<% form_tag ('/engineers/search', :method => :get, :style => "border-right-style:thin") do %>
+   <% fields_for :name do |n| %>
+   FirstName:<%= text_field_with_auto_complete :name, :fname %><br />
+   LastName: <%= text_field_with_auto_complete :name, :lname %>
+   <% end %>
+   Experience (at least):<%= select("experience","years", [['0',0],['1',1],['2',2],['3',3],['4',4],['5',5]]) %>
    Skill Level: <%=select "skill", "id", SkillLevel.find(:all).collect { |s| [s.name,s.id] }, {:include_blank => true} %><br />
-   Has Resume? <input type="checkbox" name="resume" value="1"/><br />
-   Has Picture? <input type="checkbox" name="photo" value="1"/><br />
-   <input type="submit" value="Engineer Query"/>
-</form>
+   Has Resume? <%= check_box_tag "resume","1" %><br />
+   Has Picture? <%=check_box_tag "photo","1"%><br />
+   <%= submit_tag 'Engineer Query' %>
+<% end %>
 </fieldset>
 </div>

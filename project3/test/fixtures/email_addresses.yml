@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  type: MyString
+  address: MyString
+  engineer: 
+
+two:
+  type: MyString
+  address: MyString
+  engineer: 

@@ -1,0 +1,14 @@
+<%= flash[:error] %>
+<ul>
+   <% if @engineer.email_addresses.empty? %>
+      No email addresses...
+   <% else %>
+      <% @engineer.email_addresses.each do |email_address| %>
+         <li><%= email_address.to_s %> 
+            <% if controller.action_name.casecmp("edit") == 0 %>
+            | <%= link_to_remote 'Delete', :url => {:controller => 'email_addresses', :action => 'destroy', :email_address_id => email_address.id, :engineer_id => @engineer.id}, :update => 'email_addresses' %>
+            <% end %>
+         </li>
+      <% end %>
+   <% end %>
+</ul>

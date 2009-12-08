@@ -1,4 +1,5 @@
 class NamesController < ApplicationController
+  
   # GET /names
   # GET /names.xml
   def index

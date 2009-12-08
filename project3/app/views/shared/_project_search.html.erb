@@ -1,9 +1,9 @@
 <div id="project_search" style="margin-bottom: 10px;background-color:#3366FF;padding-bottom:10px">
 <fieldset>
 <legend><span class="fieldsetLabel ">Project Search</span></legend>
-<form style="display:block;border-left-style:thin" action="/projects/search">
-   <input id="query" type="text" name="query" value="Enter keywords..." />
-   <input type="submit" value="Project Query"/>
-</form>
+<% form_tag ('/projects/search', :controller => "projects", :method => :get, :style => "display:block;border-left-style:thin") do %>
+   <%= text_field_with_auto_complete :project, :name %>
+   <%= submit_tag "Project Query" %>
+<% end %>
 </fieldset>
 </div>

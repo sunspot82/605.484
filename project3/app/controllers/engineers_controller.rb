@@ -1,11 +1,13 @@
 class EngineersController < ApplicationController
   
+  #
   # GET /engineers/tag
+  #
   def tag
      @engineers = Engineer.find_tagged_with(params[:id]).paginate :per_page => 5, :page => params[:page], :order => 'id'    
      flash[:notice] = "Engineers tagged with '#{params[:id]}'"
      render(:action => :index)
-  end
+  end  
   #
   # Updating similar engineers listing
   #
@@ -31,8 +33,8 @@ class EngineersController < ApplicationController
   def search
      logger.info("Called Search!")
      # Build query string
-     params[:fname] = '%' if params[:fname].empty?
-     params[:lname] = '%' if params[:lname].empty?     
+     params[:name][:fname] = '%' if params[:name][:fname].empty?
+     params[:name][:lname] = '%' if params[:name][:lname].empty?
      query = "fname like ? AND lname like ? AND years_of_experience >= ?"
      logger.info("skill: #{params[:skill][:id]}")
      if ! params[:skill][:id].empty?
@@ -49,8 +51,8 @@ class EngineersController < ApplicationController
      # Execute query
      name_join = 'INNER JOIN names ON names.engineer_id = engineers.id'
      resources_join = 'LEFT JOIN resources ON resources.engineer_id = engineers.id'
-     @engineers = Engineer.all(:joins=>[name_join,resources_join],:conditions => [query,params[:fname], params[:lname], params[:years]], :order => :id).paginate :per_page => 5, :page => params[:page]
-     
+     @engineers = Engineer.all(:joins=>[name_join,resources_join],:conditions => [query,params[:name][:fname], params[:name][:lname], params[:experience][:years]], :order => :id).paginate :per_page => 5, :page => params[:page]
+     flash[:notice] = "Query has returned #{@engineers.length} results." if ! @engineer.nil?
      respond_to do |format|
         format.html { render :action => 'index', :object => @engineers }
         format.xml { render :xml => @engineers }
