@@ -7,14 +7,16 @@ class EmailAddressTest < ActiveSupport::TestCase
     e = EmailAddress.new
     assert !e.valid?
     assert e.errors.invalid?(:label)
-    assert.e.errors.invalid?(:address)
+    assert e.errors.invalid?(:address)
+    assert e.errors.invalid?(:engineer_id)
   end
   
   # Test the Address format validation
   test "Address format test" do
      e = EmailAddress.new
      e.label = "test"
-
+     e.engineer = Engineer.first
+     
      # Negative Test
      e.address = "invalid_address.com"
      assert !e.valid?

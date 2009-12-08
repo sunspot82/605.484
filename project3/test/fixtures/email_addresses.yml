@@ -1,11 +1,11 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  type: MyString
+  label: MyString
   address: MyString
-  engineer: 
+  engineer: 0
 
 two:
-  type: MyString
+  label: MyString
   address: MyString
-  engineer: 
+  engineer: 0

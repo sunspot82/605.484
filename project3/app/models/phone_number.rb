@@ -1,7 +1,7 @@
 class PhoneNumber < ActiveRecord::Base
   belongs_to :engineer
   
-  validates_presence_of :label, :number
+  validates_presence_of :label, :number, :engineer_id
   # 
   # Phone number regular expression found at url:
   #
