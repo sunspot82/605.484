@@ -79,6 +79,7 @@ class DocumentSet
   #****************************************************************
   def get_set_similarity_to_owner(directory_path,owner,print=false)
      load_data directory_path
+     #puts "owner: #{owner}"
      owner_doc = Document.new(owner,nil)
      owner_doc_count = 0
      scores = Array.new
@@ -90,7 +91,7 @@ class DocumentSet
         end
      end
      owner_doc.computeTotal
-     puts "****Owner Doc Count: #{owner_doc_count}"
+     #puts "****Owner Doc Count: #{owner_doc_count}"
      # If owner exists, get scores.
      if owner_doc_count > 0
         # Remove owner's docs from total count.
@@ -175,7 +176,7 @@ private
   #****************************************************************
   def getDocumentOwner(path)
     #puts "#{File.basename(path)[/[^(\.txt)(\.yml)]/]}"
-    File.basename(path)[/[^(\.txt)(\.yml)]/]
+    File.basename(path)[/.*[^(\.txt)(\.yml)]/]
   end
   #****************************************************************
   # Returns the standard deviation value for the term identified 

@@ -48,15 +48,14 @@
     </fieldset>
   </p>
   <p>
-     <%= link_to "Edit Assignments", project_assignments_path(:engineer_id => @engineer) %>
+     <%=@engineer.name.to_s %> currently has <span style="color:red;font-weight:900"><%=@engineer.project_assignments.length %></span> assignment(s).<br />
+     <span style="font-size: 9pt"><%= link_to "Edit Assignments", project_assignments_path(:engineer_id => @engineer) %></span>
   </p>
   <p> 
-      <%= link_to "Edit Resources", resources_path(:engineer_id => @engineer) %>
-      <div style="font-size:8pt;text-decoration:underline">
-         Update Resume / Photo :: Create/Edit Resource with role &quot;resume / photo&quot;.<br />
-      </div>
+      <%=@engineer.name.to_s %> currently has <span style="color:red;font-weight:900"><%=@engineer.resources.length %></span> resource(s).<br />
+      <span style="font-size: 9pt"><%= link_to "Edit Resources", resources_path(:engineer_id => @engineer) %></span>      
   </p>    
 
 
 <%= link_to 'Show', @engineer %> |
-<%= link_to 'Back', engineers_path %>
+<%= link_to 'Index', engineers_path %>

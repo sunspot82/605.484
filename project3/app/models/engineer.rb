@@ -3,7 +3,8 @@ class Engineer < ActiveRecord::Base
   has_one :name, :dependent => :destroy, :validate => true
   has_many :projects, :through => :project_assignments
   has_many :project_scopes, :through => :project_assignments
-  has_many :resources, :dependent => :destroy, :validate => true
+  has_many :project_assignments, :dependent => :destroy, :validate => true
+  has_many :resources, :dependent => :destroy, :validate => true  
   
   has_many :email_addresses, :dependent => :destroy, :validate => true
   has_many :phone_numbers, :dependent => :destroy, :validate => true

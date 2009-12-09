@@ -2670,3 +2670,138 @@ Resume content type: image/png
   [4;36;1mSkillLevel Load (0.0ms)[0m   [0;1mSELECT * FROM "skill_levels" LIMIT 1[0m
   [4;35;1mSkillLevel Load (0.0ms)[0m   [0mSELECT "skill_levels".id FROM "skill_levels" WHERE ("skill_levels"."name" = 'Experienced') LIMIT 1[0m
   [4;36;1mSkillLevel Load (0.0ms)[0m   [0;1mSELECT "skill_levels".id FROM "skill_levels" WHERE ("skill_levels"."name" = 'Experienced Master') LIMIT 1[0m
+  [4;36;1mEngineer Load (1.0ms)[0m   [0;1mSELECT * FROM "engineers" LIMIT 1[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT * FROM "engineers" LIMIT 1[0m
+  [4;36;1mName Load (0.0ms)[0m   [0;1mSELECT * FROM "names" LIMIT 1[0m
+  [4;35;1mName Load (0.0ms)[0m   [0mSELECT * FROM "names" WHERE ("names".engineer_id = 298486374) LIMIT 1[0m
+  [4;36;1mName Load (0.0ms)[0m   [0;1mSELECT "names".id FROM "names" WHERE (fname = 'fname2' AND lname = 'lname2') LIMIT 1[0m
+  [4;35;1mSkillLevel Load (0.0ms)[0m   [0mSELECT * FROM "skill_levels" LIMIT 1[0m
+  [4;36;1mName Load (0.0ms)[0m   [0;1mSELECT "names".id FROM "names" WHERE (fname = 'fname2' AND lname = 'lname2 JR.') LIMIT 1[0m
+  [4;35;1mSkillLevel Load (0.0ms)[0m   [0mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = -1) [0m
+  [4;36;1mSkillLevel Load (1.0ms)[0m   [0;1mSELECT * FROM "skill_levels" LIMIT 1[0m
+  [4;35;1mName Load (1.0ms)[0m   [0mSELECT "names".id FROM "names" WHERE (fname = 'fname2' AND lname = 'lname2 JR.') LIMIT 1[0m
+  [4;36;1mSkillLevel Load (0.0ms)[0m   [0;1mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 64810936) [0m
+  [4;35;1mEngineer Load (1.0ms)[0m   [0mSELECT * FROM "engineers" LIMIT 1[0m
+  [4;36;1mName Load (1.0ms)[0m   [0;1mSELECT * FROM "names" LIMIT 1[0m
+  [4;35;1mName Load (0.0ms)[0m   [0mSELECT * FROM "names" WHERE ("names".engineer_id = 298486374) LIMIT 1[0m
+  [4;36;1mName Load (0.0ms)[0m   [0;1mSELECT "names".id FROM "names" WHERE (fname = 'fname2' AND lname = 'lname2') LIMIT 1[0m
+  [4;35;1mSkillLevel Load (1.0ms)[0m   [0mSELECT * FROM "skill_levels" LIMIT 1[0m
+  [4;36;1mName Load (0.0ms)[0m   [0;1mSELECT "names".id FROM "names" WHERE (fname = 'fname2' AND lname = 'lname2 JR.') LIMIT 1[0m
+  [4;35;1mSkillLevel Load (0.0ms)[0m   [0mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 64810936) [0m
+  [4;36;1mName Load (0.0ms)[0m   [0;1mSELECT "names".id FROM "names" WHERE (fname = 'fname2' AND lname = 'lname2 JR.') LIMIT 1[0m
+  [4;35;1mSkillLevel Load (88.0ms)[0m   [0mSELECT * FROM "skill_levels" WHERE ("skill_levels"."id" = 64810936) [0m
+  [4;36;1mEngineer Load (1.0ms)[0m   [0;1mSELECT * FROM "engineers" LIMIT 1[0m
+  [4;35;1mName Load (0.0ms)[0m   [0mSELECT * FROM "names" LIMIT 1[0m
+  [4;36;1mName Load (0.0ms)[0m   [0;1mSELECT * FROM "names" WHERE ("names".engineer_id = 298486374) LIMIT 1[0m
+  [4;35;1mName Load (1.0ms)[0m   [0mSELECT "names".id FROM "names" WHERE (fname = 'fname2' AND lname = 'lname2') LIMIT 1[0m
+  [4;36;1mSkillLevel Load (1.0ms)[0m   [0;1mSELECT * FROM "skill_levels" LIMIT 1[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT * FROM "engineers" LIMIT 1[0m
+  [4;36;1mName Load (0.0ms)[0m   [0;1mSELECT "names".id FROM "names" WHERE (fname = NULL AND lname = NULL) LIMIT 1[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT * FROM "engineers" LIMIT 1[0m
+  [4;36;1mName Load (0.0ms)[0m   [0;1mSELECT * FROM "names" LIMIT 1[0m
+  [4;35;1mName Load (0.0ms)[0m   [0mSELECT "names".id FROM "names" WHERE (fname = 'fname2' AND lname = 'lname2') LIMIT 1[0m
+  [4;36;1mName Load (1.0ms)[0m   [0;1mSELECT "names".id FROM "names" WHERE (fname = 'HiThere' AND lname = 'differentLastName') LIMIT 1[0m
+  [4;35;1mOrganization Load (0.0ms)[0m   [0mSELECT "organizations".id FROM "organizations" WHERE ("organizations"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mOrganization Load (1.0ms)[0m   [0;1mSELECT * FROM "organizations" LIMIT 1[0m
+  [4;35;1mOrganization Load (0.0ms)[0m   [0mSELECT "organizations".id FROM "organizations" WHERE ("organizations"."name" = 'Microsoft') LIMIT 1[0m
+  [4;36;1mOrganization Load (0.0ms)[0m   [0;1mSELECT "organizations".id FROM "organizations" WHERE ("organizations"."name" = 'Microsoft 2.0') LIMIT 1[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT * FROM "engineers" LIMIT 1[0m
+  [4;36;1mEngineer Load (1.0ms)[0m   [0;1mSELECT * FROM "engineers" LIMIT 1[0m
+  [4;35;1mProject Load (1.0ms)[0m   [0mSELECT * FROM "projects" LIMIT 1[0m
+  [4;36;1mProjectScope Load (0.0ms)[0m   [0;1mSELECT * FROM "project_scopes" LIMIT 1[0m
+  [4;35;1mProject Load (1.0ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 298486374) [0m
+  [4;36;1mProjectScope Load (0.0ms)[0m   [0;1mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 298486374) [0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT * FROM "engineers" WHERE ("engineers"."id" = 298486374) [0m
+  [4;36;1mProject Load (1.0ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 298486374) [0m
+  [4;35;1mProjectScope Load (1.0ms)[0m   [0mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 298486374) [0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT * FROM "engineers" WHERE ("engineers"."id" = -1) [0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT * FROM "engineers" LIMIT 1[0m
+  [4;36;1mProject Load (0.0ms)[0m   [0;1mSELECT * FROM "projects" LIMIT 1[0m
+  [4;35;1mProjectScope Load (1.0ms)[0m   [0mSELECT * FROM "project_scopes" LIMIT 1[0m
+  [4;36;1mProject Load (1.0ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 298486374) [0m
+  [4;35;1mProjectScope Load (0.0ms)[0m   [0mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 298486374) [0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT * FROM "engineers" WHERE ("engineers"."id" = 298486374) [0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT * FROM "engineers" LIMIT 1[0m
+  [4;36;1mProject Load (0.0ms)[0m   [0;1mSELECT * FROM "projects" LIMIT 1[0m
+  [4;35;1mProjectScope Load (0.0ms)[0m   [0mSELECT * FROM "project_scopes" LIMIT 1[0m
+  [4;36;1mProject Load (1.0ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 298486374) [0m
+  [4;35;1mProjectScope Load (1.0ms)[0m   [0mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 298486374) [0m
+  [4;36;1mEngineer Load (1.0ms)[0m   [0;1mSELECT * FROM "engineers" WHERE ("engineers"."id" = 298486374) [0m
+  [4;35;1mProject Load (0.0ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = -1) [0m
+  [4;36;1mProjectScope Load (0.0ms)[0m   [0;1mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 298486374) [0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT * FROM "engineers" WHERE ("engineers"."id" = 298486374) [0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT * FROM "engineers" LIMIT 1[0m
+  [4;35;1mProject Load (0.0ms)[0m   [0mSELECT * FROM "projects" LIMIT 1[0m
+  [4;36;1mProjectScope Load (0.0ms)[0m   [0;1mSELECT * FROM "project_scopes" LIMIT 1[0m
+  [4;35;1mProject Load (1.0ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 298486374) [0m
+  [4;36;1mProjectScope Load (0.0ms)[0m   [0;1mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 298486374) [0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT * FROM "engineers" WHERE ("engineers"."id" = 298486374) [0m
+  [4;36;1mProject Load (0.0ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 298486374) [0m
+  [4;35;1mProjectScope Load (0.0ms)[0m   [0mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = -1) [0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT * FROM "engineers" WHERE ("engineers"."id" = 298486374) [0m
+  [4;35;1mEngineer Load (1.0ms)[0m   [0mSELECT * FROM "engineers" LIMIT 1[0m
+  [4;36;1mProject Load (2.0ms)[0m   [0;1mSELECT * FROM "projects" LIMIT 1[0m
+  [4;35;1mProjectScope Load (0.0ms)[0m   [0mSELECT * FROM "project_scopes" LIMIT 1[0m
+  [4;36;1mProject Load (1.0ms)[0m   [0;1mSELECT * FROM "projects" WHERE ("projects"."id" = 298486374) [0m
+  [4;35;1mProjectScope Load (0.0ms)[0m   [0mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 298486374) [0m
+  [4;36;1mEngineer Load (1.0ms)[0m   [0;1mSELECT * FROM "engineers" WHERE ("engineers"."id" = 298486374) [0m
+  [4;35;1mProject Load (2.0ms)[0m   [0mSELECT * FROM "projects" WHERE ("projects"."id" = 298486374) [0m
+  [4;36;1mProjectScope Load (0.0ms)[0m   [0;1mSELECT * FROM "project_scopes" WHERE ("project_scopes"."id" = 298486374) [0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT * FROM "engineers" WHERE ("engineers"."id" = 298486374) [0m
+  [4;36;1mProjectScope Load (0.0ms)[0m   [0;1mSELECT "project_scopes".id FROM "project_scopes" WHERE ("project_scopes"."name" IS NULL) LIMIT 1[0m
+  [4;35;1mProjectScope Load (1.0ms)[0m   [0mSELECT * FROM "project_scopes" LIMIT 1[0m
+  [4;36;1mProjectScope Load (0.0ms)[0m   [0;1mSELECT "project_scopes".id FROM "project_scopes" WHERE ("project_scopes"."name" = 'Integration') LIMIT 1[0m
+  [4;35;1mProjectScope Load (0.0ms)[0m   [0mSELECT "project_scopes".id FROM "project_scopes" WHERE ("project_scopes"."name" = 'Integration II') LIMIT 1[0m
+  [4;36;1mProject Load (0.0ms)[0m   [0;1mSELECT "projects".id FROM "projects" WHERE ("projects"."name" IS NULL) LIMIT 1[0m
+  [4;35;1mProject Load (0.0ms)[0m   [0mSELECT * FROM "projects" LIMIT 1[0m
+  [4;36;1mOrganization Load (0.0ms)[0m   [0;1mSELECT * FROM "organizations" LIMIT 1[0m
+  [4;35;1mProject Load (0.0ms)[0m   [0mSELECT "projects".id FROM "projects" WHERE ("projects"."name" = 'Future Endevours') LIMIT 1[0m
+  [4;36;1mOrganization Load (0.0ms)[0m   [0;1mSELECT * FROM "organizations" WHERE ("organizations"."id" = 298486374) [0m
+  [4;35;1mProject Load (0.0ms)[0m   [0mSELECT "projects".id FROM "projects" WHERE ("projects"."name" = 'Future Endevours 2.0') LIMIT 1[0m
+  [4;36;1mOrganization Load (0.0ms)[0m   [0;1mSELECT * FROM "organizations" WHERE ("organizations"."id" = 298486374) [0m
+  [4;35;1mProject Load (1.0ms)[0m   [0mSELECT "projects".id FROM "projects" WHERE ("projects"."name" = 'Unique Project Name') LIMIT 1[0m
+  [4;36;1mOrganization Load (1.0ms)[0m   [0;1mSELECT * FROM "organizations" WHERE ("organizations"."id" = -1) [0m
+  [4;35;1mOrganization Load (1.0ms)[0m   [0mSELECT * FROM "organizations" LIMIT 1[0m
+  [4;36;1mProject Load (1.0ms)[0m   [0;1mSELECT "projects".id FROM "projects" WHERE ("projects"."name" = 'Unique Project Name') LIMIT 1[0m
+  [4;35;1mOrganization Load (0.0ms)[0m   [0mSELECT * FROM "organizations" WHERE ("organizations"."id" = 298486374) [0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT * FROM "engineers" LIMIT 1[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE (id = 298486374) LIMIT 1[0m
+  [4;36;1mEngineer Load (1.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE (id = 298486374) LIMIT 1[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE (id = -1) LIMIT 1[0m
+  [4;36;1mEngineer Load (1.0ms)[0m   [0;1mSELECT * FROM "engineers" LIMIT 1[0m
+  [4;35;1mEngineer Load (1.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE (id = 298486374) LIMIT 1[0m
+  [4;36;1mEngineer Load (1.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE (id = NULL) LIMIT 1[0m
+  [4;35;1mSimilarityScore Load (1.0ms)[0m   [0mSELECT * FROM "similarity_scores" LIMIT 1[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT * FROM "engineers" LIMIT 2[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE (id = -1) LIMIT 1[0m
+  [4;36;1mEngineer Load (1.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE (id = 2053932785) LIMIT 1[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE (id = -1) LIMIT 1[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE (id = 2053932785) LIMIT 1[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE (id = -1) LIMIT 1[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE (id = -1) LIMIT 1[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE (id = -1) LIMIT 1[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE (id = -1) LIMIT 1[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE (id = 298486374) LIMIT 1[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE (id = 2053932785) LIMIT 1[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE (id = 298486374) LIMIT 1[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE (id = 2053932785) LIMIT 1[0m
+  [4;35;1mSimilarityScore Load (0.0ms)[0m   [0mSELECT * FROM "similarity_scores" LIMIT 1[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT * FROM "engineers" LIMIT 2[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE (id = 298486374) LIMIT 1[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE (id = 2053932785) LIMIT 1[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE (id = 298486374) LIMIT 1[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE (id = 2053932785) LIMIT 1[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE (id = 298486374) LIMIT 1[0m
+  [4;36;1mEngineer Load (1.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE (id = 2053932785) LIMIT 1[0m
+  [4;35;1mEngineer Load (1.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE (id = 298486374) LIMIT 1[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE (id = 2053932785) LIMIT 1[0m
+  [4;35;1mSimilarityScore Load (0.0ms)[0m   [0mSELECT * FROM "similarity_scores" LIMIT 1[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT * FROM "engineers" LIMIT 2[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE (id = NULL) LIMIT 1[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE (id = NULL) LIMIT 1[0m
+  [4;35;1mEngineer Load (0.0ms)[0m   [0mSELECT "engineers".id FROM "engineers" WHERE (id = NULL) LIMIT 1[0m
+  [4;36;1mEngineer Load (0.0ms)[0m   [0;1mSELECT "engineers".id FROM "engineers" WHERE (id = NULL) LIMIT 1[0m
+  [4;35;1mSkillLevel Load (1.0ms)[0m   [0mSELECT "skill_levels".id FROM "skill_levels" WHERE ("skill_levels"."name" IS NULL) LIMIT 1[0m
+  [4;36;1mSkillLevel Load (1.0ms)[0m   [0;1mSELECT * FROM "skill_levels" LIMIT 1[0m
+  [4;35;1mSkillLevel Load (0.0ms)[0m   [0mSELECT "skill_levels".id FROM "skill_levels" WHERE ("skill_levels"."name" = 'Experienced') LIMIT 1[0m
+  [4;36;1mSkillLevel Load (0.0ms)[0m   [0;1mSELECT "skill_levels".id FROM "skill_levels" WHERE ("skill_levels"."name" = 'Experienced Master') LIMIT 1[0m

@@ -155,6 +155,6 @@ private
      "resume"
   end
   def get_picture_label
-     "photo"
+     "picture"
   end
 end

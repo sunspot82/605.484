@@ -9,7 +9,7 @@
   <p>
   <%= f.label :name, "Name:"%>
   <ul>
-  <% fields_for @engineer.name do |n| %>  
+  <% fields_for :name do |n| %>  
      <p>
         <li><%=n.label :fname, "First:" %> <%= n.text_field :fname %></li>
      </p>

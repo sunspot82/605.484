@@ -25,4 +25,4 @@
 <% end %>
 
 <%= link_to 'Show', @resource %> |
-<%= link_to 'Back', resources_path %>
+<%= link_to 'Back', resources_path(:engineer_id => @resource.engineer) %>

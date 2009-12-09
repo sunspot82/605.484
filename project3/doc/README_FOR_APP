@@ -7,7 +7,7 @@ README
 
 Environment:
 -------------
-gems: rails, sqlite3-ruby, will_paginate, stemmer, classifier (To install, run the following on each: gem install <GEM_NAME>)
+gems: rails, sqlite3-ruby, will_paginate, stemmer (To install, run the following on each: gem install <GEM_NAME>)
 
 database: sqlite (default)
 

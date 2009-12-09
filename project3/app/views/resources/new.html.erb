@@ -1,5 +1,8 @@
 <h1>New resource</h1>
-
+<div style="font-size:8pt;text-decoration:underline">
+   To Add Resume => Create Resource with role &quot;<span style="font-weight:900">resume</span>&quot;.<br />
+   To Add Picture => Create Resource with role &quot;<span style="font-weight:900">picture</span>&quot;.<br />
+</div>
 <% form_for(@resource, :html => { :multipart => true } ) do |f| %>
   <%= f.error_messages %>  
   <% fields_for :resource do |r| %>  
@@ -31,4 +34,4 @@
   </p>
 <% end %>
 
-<%= link_to 'Back', resources_path %>
+<%= link_to 'Back', resources_path(:engineer_id => @engineer) %>
