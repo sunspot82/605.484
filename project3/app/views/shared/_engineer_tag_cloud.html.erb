@@ -1,0 +1,13 @@
+<fieldset>
+   <legend><span class="fieldsetLabel"><%= cloud_label %> Tag Cloud</span></legend>
+   <div style="margin-top: 10px">   
+   <% @tags = cloud_class.tag_counts %>
+   <% if  @tags.length > 0 %>
+   <% tag_cloud @tags, %w(tag1 tag2 tag3 tag4) do |tag,css_class| %>   
+      <%= link_to tag.name, { :controller => :engineers, :action => :tag, :id => tag.name }, :class => css_class %>
+   <% end %>
+   <% else %>
+      No <%= cloud_label %> has been tagged...
+   <% end %>
+   </div>
+</fieldset>

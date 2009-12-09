@@ -1,0 +1,12 @@
+<div class="errorNotice"><%= flash[:error] %></div>
+   <% if @engineer.phone_numbers.empty? %>
+      <div class="listNotice">No phone numbers...</div>
+   <% else %>
+      <table width="100%" style="border-style:inset;background-color:#99CC99;">
+      <tr><th>Label</th><th>Phone Number</th></tr>
+      <% @engineer.phone_numbers.each do |phone_number| %>
+         <tr class="<%=cycle('even_row','odd_row')%>"><td><%= phone_number.label %></td><td><%= phone_number.number %>
+         </td></tr>
+      <% end %>
+      </table>
+   <% end %>

@@ -1,6 +1,6 @@
 <p>
    <fieldset>
-   <legend>Photo</legend>
+   <legend><span class="nestedfieldsetLabel ">Photo</span></legend>
       <%= render :partial => 'show_picture', :object => @picture %>
    </fieldset>
 </p>
@@ -37,13 +37,13 @@
   <% end %>  
   <p>
      <fieldset>
-        <legend>Contact Info</legend>
+        <legend><span class="nestedfieldsetLabel ">Contact Info</span></legend>
         <%= render :partial => 'contact_info', :object => @engineer %>
      </fieldset>
   </p>
   <p>
     <fieldset>
-    <legend>Resume</legend>
+    <legend><span class="nestedfieldsetLabel ">Resume</span></legend>
       <%= render :partial => 'show_resume', :object => @resume %>
     </fieldset>
   </p>
@@ -52,6 +52,9 @@
   </p>
   <p> 
       <%= link_to "Edit Resources", resources_path(:engineer_id => @engineer) %>
+      <div style="font-size:8pt;text-decoration:underline">
+         Update Resume / Photo :: Create/Edit Resource with role &quot;resume / photo&quot;.<br />
+      </div>
   </p>    
 
 

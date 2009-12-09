@@ -1,0 +1,12 @@
+<div class="errorNotice"><%= flash[:error] %></div>
+   <% if @engineer.email_addresses.empty? %>
+      <div class="listNotice">No email addresses...</div>
+   <% else %>
+      <table width="100%" style="border-style:inset;background-color: #99CC99">
+      <tr><th>Label</th><th>Email Address</th></tr>
+      <% @engineer.email_addresses.each do |email_address| %>
+         <tr class="<%=cycle('even_row','odd_row')%>"><td><%= email_address.label %></td><td><%= email_address.address %>            
+         </td></tr>
+      <% end %>
+      </table>
+   <% end %>

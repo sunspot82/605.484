@@ -30,7 +30,7 @@
          <% end %>
          
          <div class="tag_cloud">
-               <%= render :partial => "shared/tag_cloud", :locals => { :cloud_class => Engineer, :cloud_label => "Engineer" } %>
+               <%= render :partial => "shared/engineer_tag_cloud", :locals => { :cloud_class => Engineer, :cloud_label => "Engineer" } %>
          </div>
          </td>
          <td bgcolor="#99FFCC">
@@ -47,7 +47,7 @@
                <%= render :partial => "shared/project_search" %>
             </div>
             <div class="tag_cloud">
-               <%= render :partial => "shared/tag_cloud", :locals => { :cloud_class => Project, :cloud_label => "Project" } %>
+               <%= render :partial => "shared/project_tag_cloud", :locals => { :cloud_class => Project, :cloud_label => "Project" } %>
             </div>
          </td></tr></table>         
       </div>

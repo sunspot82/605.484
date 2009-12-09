@@ -31,7 +31,9 @@ class EngineersController < ApplicationController
   #  in the request.
   #
   def search
-     logger.info("Called Search!")
+     #logger.info("Called Search!")
+     flash[:notice] = nil
+     flash[:error] = nil
      # Build query string
      params[:name][:fname] = '%' if params[:name][:fname].empty?
      params[:name][:lname] = '%' if params[:name][:lname].empty?
@@ -52,7 +54,7 @@ class EngineersController < ApplicationController
      name_join = 'INNER JOIN names ON names.engineer_id = engineers.id'
      resources_join = 'LEFT JOIN resources ON resources.engineer_id = engineers.id'
      @engineers = Engineer.all(:joins=>[name_join,resources_join],:conditions => [query,params[:name][:fname], params[:name][:lname], params[:experience][:years]], :order => :id).paginate :per_page => 5, :page => params[:page]
-     flash[:notice] = "Query has returned #{@engineers.length} results." if ! @engineer.nil?
+     #flash[:notice] = "Query has returned #{@engineers.length} results." if ! @engineers.nil?
      respond_to do |format|
         format.html { render :action => 'index', :object => @engineers }
         format.xml { render :xml => @engineers }

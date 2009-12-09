@@ -11,8 +11,7 @@ class NameTest < ActiveSupport::TestCase
      n = Name.new     
      assert !n.valid?
      assert n.errors.invalid?(:fname)
-     assert n.errors.invalid?(:lname)
-     assert n.errors.invalid?(:engineer_id)
+     assert n.errors.invalid?(:lname)     
   end
   # Testing name validations
   test "name must be unique" do
@@ -28,15 +27,15 @@ class NameTest < ActiveSupport::TestCase
      assert n2.valid?
   end
   # Test engineer validates
-  test "engineer must exist" do
-     n = Name.new(:fname => "first", :lname => "last")    
+  #test "engineer must exist" do
+    # n = Name.new(:fname => "first", :lname => "last")    
      #Negative Test
-     n.engineer_id = -1
-     assert ! n.valid?
-     assert n.errors.invalid?(:engineer_id)
+     #n.engineer_id = -1
+    # assert ! n.valid?
+    # assert n.errors.invalid?(:engineer_id)
      
      #Positive Test
-     n.engineer_id = @engineer.id
-     assert n.valid?     
-  end
+    # n.engineer_id = @engineer.id
+    # assert n.valid?     
+ # end
 end

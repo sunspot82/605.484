@@ -14,7 +14,9 @@ class ProjectsController < ApplicationController
   #  in the request.
   #
   def search
-     logger.info("Called Search!")
+     #logger.info("Called Search!")
+     flash[:error] = nil
+     flash[:notice] = nil
      if params[:project][:name].empty?
         params[:project][:name] = '%'
      else
@@ -22,6 +24,7 @@ class ProjectsController < ApplicationController
      end
      logger.info("query: '#{params[:project][:name]}'") 
      @projects = Project.find(:all, :conditions => ["name like ? or description like ?",params[:project][:name],params[:project][:name]] ).paginate :per_page => 5, :page => params[:page], :order => 'name'
+     #flash[:notice] = "Query has returned #{@projects.length} results." if ! @projects.nil?
      render(:action => 'index',:object => @projects)
   end
    

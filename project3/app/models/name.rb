@@ -1,9 +1,9 @@
 class Name < ActiveRecord::Base
   belongs_to :engineer
   
-  validates_presence_of :fname, :lname, :engineer_id
+  validates_presence_of :fname, :lname
   
-  validate :is_valid_name, :engineer_must_exist
+  validate :is_valid_name  
   
   def to_s
      fname + " " + lname
@@ -17,9 +17,9 @@ protected
       end
    end
    # Verifies Engineer is valid.
-  def engineer_must_exist
-     if ! Engineer.exists?(["id = ?",engineer_id])
-        errors.add(:engineer_id,"Engineer referenced does not exist!")
-     end
-  end 
+  #def engineer_must_exist
+  #   if ! Engineer.exists?(["id = ?",engineer_id])
+  #      errors.add(:engineer_id,"Engineer referenced does not exist!")
+  #   end
+  #end 
 end

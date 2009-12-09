@@ -12,9 +12,9 @@ class EmailAddressesController < ApplicationController
         @engineer.email_addresses << @email_address
         flash.now[:error] = ""
      else        
-        flash.now[:error] = "Failed to add email address.  Check your data syntax."
+        flash.now[:error] = "Failed to add email address.  Check your email address syntax."
      end
-     render :partial => 'engineers/email_address_list', :object => @engineer  
+     render :partial => 'edit_email_address_list', :object => @engineer
   end
   #
   #  Removes Email Address from Engineer
@@ -23,7 +23,7 @@ class EmailAddressesController < ApplicationController
      #puts "EmailAddresses.remove_email_address"
      @email_address = EmailAddress.find(params[:email_address_id])
      @email_address.destroy
-     render :partial => 'engineers/email_address_list', :object => @engineer  
+     render :partial => 'edit_email_address_list', :object => @engineer  
    end
 protected
   def get_engineer

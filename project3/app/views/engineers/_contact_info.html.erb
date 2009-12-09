@@ -1,22 +1,35 @@
 <% if controller.action_name.casecmp("edit") == 0 %>
    <% remote_form_for :email_address, :url => {:controller => 'email_addresses', :action => 'create', :engineer_id => @engineer.id}, :update => 'email_addresses' do |f|  %>
-      Label: <%= f.text_field :label %>
-      Address: <%= f.text_field :address %><br />
+      <table>
+         <tr><td>Label:</td><td><%= f.text_field :label %></td></tr>
+         <tr><td>Email Address <span style="font-size:8pt">(ex. aaa@bbb.ccc)</span>:</td><td><%= f.text_field :address %></td></tr>
+      </table>
       <%= hidden_field(:email_address, :engineer_id, :value => @engineer.id) %>
       <%= f.submit 'Add Email Address' %>
    <% end %>
 <% end %>
-<div id="email_addresses">
-   <%= render :partial => 'email_address_list', :object => @engineer %>
+<div id="email_addresses" style="margin-bottom: 10px">
+   <% if controller.action_name.eql?("edit") %>
+      <%= render :partial => 'email_addresses/edit_email_address_list', :object => @engineer %>
+   <% else %>
+      <%= render :partial => 'email_addresses/email_address_list', :object => @engineer %>
+   <% end %>
 </div>
+<hr />
 <% if controller.action_name.casecmp("edit") == 0 %>
    <% remote_form_for :phone_number, :url => {:controller => 'phone_numbers', :action => 'create', :engineer_id => @engineer.id}, :update => 'phone_numbers' do |f| %>
-      Label: <%= f.text_field :label %>
-      Number (ex. xxx-xxx-xxxx): <%= f.text_field :number %><br />
+     <table>
+         <tr><td>Label:</td><td><%= f.text_field :label %></td></tr>
+         <tr><td>Phone Number <span style="font-size:8pt">(ex. xxx-xxx-xxxx)</span>:</td><td><%= f.text_field :number %></td></tr>
+      </table>
       <%= hidden_field(:phone_number, :engineer_id, :value => @engineer.id) %>
       <%= f.submit "Add Phone Number" %>
    <% end %>
 <% end %>
-<div id="phone_numbers">
-   <%= render :partial => 'phone_number_list', :object => @engineer %>
+<div id="phone_numbers" style="margin-top: 10px">
+   <% if controller.action_name.eql?("edit") %>
+      <%= render :partial => 'phone_numbers/edit_phone_number_list', :object => @engineer %>
+   <% else %>
+      <%= render :partial => 'phone_numbers/phone_number_list', :object => @engineer %>
+   <% end %>
 </div>

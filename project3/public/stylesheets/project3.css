@@ -16,6 +16,13 @@ td {
    padding-left:2px;
    padding-right:2px;
 }
+.nestedfieldsetLabel {      
+   font-family:cursive;arial,serif;
+   font-style:italic;
+   font-weight: 900;
+   padding-left:2px;
+   padding-right:2px;
+}
 #banner {
    background-color: #CC66CC;
    text-align:center;
@@ -93,13 +100,23 @@ td {
 }
 
 /* Error Message Styles */
-/*
+.listNotice {
+  font-weight:900;
+  font-style:italic;
+  border-style:outset;
+  background-color:#c0c0c0;
+}
+.errorNotice {
+   color: #ff0000;
+   font-family: arial, serif;
+   font-weight: 600;
+}
 .fieldWithErrors {
   padding: 2px;
   background-color: red;
   display:table; 
 }
-*/
+
 #errorExplanation {
   width: 400px;
   border: 2px solid red;

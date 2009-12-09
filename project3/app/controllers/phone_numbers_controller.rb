@@ -12,7 +12,7 @@ class PhoneNumbersController < ApplicationController
      else
         flash.now[:error] = "Failed to add phone number.  Check your data syntax."
      end
-     render :partial => 'engineers/phone_number_list', :object => @engineer  
+     render :partial => 'edit_phone_number_list', :object => @engineer  
   end
   #
   #  Removes Phone Number from Engineer
@@ -20,7 +20,7 @@ class PhoneNumbersController < ApplicationController
   def destroy
      @phone_number = PhoneNumber.find(params[:phone_number_id])
      @phone_number.destroy
-     render :partial => 'engineers/phone_number_list', :object => @engineer  
+     render :partial => 'edit_phone_number_list', :object => @engineer  
    end
 protected
   def get_engineer
