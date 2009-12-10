@@ -9,6 +9,8 @@ require 'app/services/similarity/document_set'
 #****************************************************************
 class ContentProcessor
   
+  attr_reader :data_directory
+  
   #****************************************************************
   # SocialNet Constructor.
   #****************************************************************

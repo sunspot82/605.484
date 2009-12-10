@@ -5,8 +5,11 @@ class ResourceObserver < ActiveRecord::Observer
   
   def after_save(r)
       if r.role.casecmp("resume") == 0       
-         puts "Processing Resume Resource..."
+         puts "Processing Resume Resource..."         
          p = ContentProcessor.new
+         if ! File.exists?(p.data_directory)
+            Dir.mkdir(p.data_directory)
+         end
          #puts "#{r.f.path}"
          content = IO.readlines(r.attachment.path)         
          user = "#{r.engineer_id}"
